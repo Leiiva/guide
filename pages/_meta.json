@@ -1,18 +1,6 @@
 {
-  "index": {
-    "title": "Home",
-    "type": "page"
-  },
-  "topics": {
-    "title": "Topics",
-    "type": "page"
-  },
-  "fruits": {
-    "title": "Fruits",
-    "type": "page"
-  },
-  "about": {
-    "title": "About",
-    "type": "page"
-  }
+  "index": "Introduction",
+  "Submissions-Review": "Submissions & Review",
+  "testing": "Tesing",
+  "testpush":"Tesing - Push"
 }

@@ -1,9 +1,25 @@
+import React from 'react';
+import { shareArticle } from './share';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-# Introduction
+export const ClickableTitle = ({ children }) => {
+  return (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+      {children} <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+  );
+};
+
+<ToastContainer />
+
+<ClickableTitle>Introduction</ClickableTitle>
+
  
 Test test
 
-## What is Nextra?
+## What is Slayte
 
 Hello
 

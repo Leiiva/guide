@@ -6,9 +6,12 @@ export function shareArticle() {
         navigator.clipboard.writeText(url);
         console.log("shareArticle function triggered");
 
-        toast.success("Article link copied to clipboard!", {
-            autoClose: 2000,
-            hideProgressBar: true
-        });
+        if (!toast.isActive('copyToast')) {
+            toast.success("Article link copied to clipboard!", {
+                autoClose: 2000,
+                hideProgressBar: true,
+                toastId: 'copyLink'
+            });
+        }
     }
 }

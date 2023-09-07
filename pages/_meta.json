@@ -1,9 +1,8 @@
 {
   "index": "Home",
-  "another": "Another Page",
-  "Competition": "Competition",
+  "Submissions-Review": "Submissions & Review",
   "Conference-Manager": "Conference Manager",
   "Education-Credits": "Education Credits",
-  "General": "General",
-  "Submissions-Review": "Submissions & Review"
+  "Competition": "Competition",
+  "General": "General"
 }

@@ -1,4 +1,8 @@
 {
-    "Admin-Howto": "Administrator How-To",
-    "Review-Howto": "Reviewer How-To"
-  }
+    "Admin-Howto": "Administrator How-to",
+    "Reviewer-Howto": "Reviewer How-to",
+    "Submitter-Howto": "Submitter How-to",
+    "FAQ": "FAQ",
+    "GettingStarted": "Getting Started",
+    "TroubleshootingTips": "Troubleshooting Tips"
+}

@@ -1,0 +1,30 @@
+{
+  "Available_Call_Types": {
+    "title": "Available Call Types",
+    "display": "hidden"
+  },
+  "Create_a_Slayte_Shortcut": {
+    "title": "Create a Slayte Shortcut",
+    "display": "hidden"
+  },
+  "Form_Builder_Field_Options": {
+    "title": "Form Builder Field Options",
+    "display": "hidden"
+  },
+  "Review_Settings": {
+    "title": "Review Settings",
+    "display": "hidden"
+  },
+  "Roles_in_Slayte": {
+    "title": "Roles in Slayte",
+    "display": "hidden"
+  },
+  "Slayte_Terms_and_Definitions": {
+    "title": "Slayte Terms and Definitions",
+    "display": "hidden"
+  },
+  "Submissions_Tab_Functions": {
+    "title": "Submissions Tab Functions",
+    "display": "hidden"
+  }
+}

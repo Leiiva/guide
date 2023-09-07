@@ -1,0 +1,52 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Manage Speaker' Profile</ClickableTitle>
+
+
+
+
+As an Administrator, you can view and edit speaker's profiles if required. 
+
+
+1. Go to **Events**, click the desired event's tile
+
+
+2. From the left panel, click **Speakers**
+
+
+3. From the speaker list, you can search by name/ email address from the search field on the top, or click **View** to the right to access their profile.
+
+
+![mceclip0.png](../../../resources/article-images/12909048692499-Manage-Speaker-Profile_1.png)
+
+
+4. If needed, from the speaker's profile window; click **Edit**to update applicable fields (First Name, Last Name, Biography, etc) and Upload/ Remove the profile picture. 
+
+
+![mceclip1.png](../../../resources/article-images/12909048692499-Manage-Speaker-Profile_2.png)
+
+
+5. Click **Save**
+
+
+ From here, you can also assign/remove permissions, access their Impexium profile if applicable, or refresh external data to update their profile information.
+
+
+![mceclip2.png](../../../resources/article-images/12909048692499-Manage-Speaker-Profile_3.png)
+
+
+

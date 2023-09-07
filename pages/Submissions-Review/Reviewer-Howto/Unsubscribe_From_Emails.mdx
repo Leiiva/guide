@@ -1,0 +1,37 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Unsubscribe From Emails</ClickableTitle>
+
+
+
+
+1. From the Home screen select **Reviews**
+
+
+![](../../../resources/article-images/4412830316819-Unsubscribe-From-Emails_1.png)
+
+
+2. Select **UNSUBSCRIBE FROM REVISION NOTIFICATION**
+
+
+![mceclip1.png](../../../resources/article-images/4412830316819-Unsubscribe-From-Emails_2.png)
+
+
+ 
+
+
+

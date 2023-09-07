@@ -1,0 +1,55 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Delete Page</ClickableTitle>
+
+
+
+
+1. Go to Events, and select the desired event 
+
+
+2. From the left panel, click **Pages**
+
+
+**![mceclip3.png](../../../resources/article-images/12809526882195-Delete-Page_1.png)**
+
+
+3. Next to the page you want to delete, click **View** 
+
+
+![mceclip0.png](../../../resources/article-images/12809526882195-Delete-Page_2.png)
+
+
+4. From the page settings, click **Delete**
+
+
+![mceclip1.png](../../../resources/article-images/12809526882195-Delete-Page_3.png)
+
+
+5. From the confirmation page, click **Yes** to proceed 
+
+
+![mceclip2.png](../../../resources/article-images/12809526882195-Delete-Page_4.png)
+
+
+6. You will be routed to the main Page menu and the following pop-up confirmation message will appear 
+
+
+![](../../../resources/article-images/12809526882195-Delete-Page_5.png)
+
+
+

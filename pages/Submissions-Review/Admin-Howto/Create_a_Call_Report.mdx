@@ -1,0 +1,62 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Create a Call Report</ClickableTitle>
+
+
+
+
+Call Reporting can be used to maintain an overview of the current status of your Calls. Generate custom reports on Submissions Received, Submission Field Distributions, Review Score Distribution and much more. With each generated report you will have the following options:
+
+
+* **Edit** This allows you to modify the name of the Chart and how the data will be displayed
+* **Move up** Moves the Chart placement up one position
+* **Move down** Moves the Chart placement down one position
+* **Remove** Removes the Chart from the Report
+
+
+1. Select the desired call then navigate to the **Reporting** menu
+
+
+![mceclip0.png](../../../resources/article-images/4413381736211-Create-a-Call-Report_1.png)
+
+
+2. Select **ADD CHART**
+
+
+![mceclip2.png](../../../resources/article-images/4413381736211-Create-a-Call-Report_2.png)
+
+
+3. Select Chart by clicking on chart type
+
+
+![mceclip3.png](../../../resources/article-images/4413381736211-Create-a-Call-Report_3.png)
+
+
+4. **Configure** the chart then select **SAVE** to open the newly configured chart
+
+
+![mceclip4.png](../../../resources/article-images/4413381736211-Create-a-Call-Report_4.png)
+
+
+5. Select the **ellipses** (next to ADD Chart) for additional options:
+
+
+* **Load Report** This will load a pre-saved report of your choice
+* **Save Report** This allows you to save the current page view as a report to be used moving forward
+* **Save Report As** This allows you to save your generated report with a new title from a previously saved report
+
+

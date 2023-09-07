@@ -1,0 +1,64 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Filter Competitions</ClickableTitle>
+
+
+
+
+You can easily locate **Competitions** by adding filters from the competitions list page. You can filter them by **Competition Name** or **Category + Subcategory.**
+
+
+To the right of each column, click the **filter button** to open the filter window
+
+
+![mceclip0.png](../../../resources/article-images/13870035407507-Filter-Competitions_1.png)
+
+
+To filter by **name**, enter the competition name and click **Add.**You can add multiple names for all related competitions to display on the list. 
+
+
+![mceclip4.png](../../../resources/article-images/13870035407507-Filter-Competitions_2.png)
+
+
+To filter by a **category**, type the category name or click the down arrow to select from the drop-down menu. You can select as many as categories you want. 
+
+
+![mceclip5.png](../../../resources/article-images/13870035407507-Filter-Competitions_3.png)
+
+
+Once you have selected a category, the **Sub Category** filter will be enabled. You can also type the name to search or select from the drop-down menu
+
+
+![mceclip6.png](../../../resources/article-images/13870035407507-Filter-Competitions_4.png)
+
+
+## **Closed Competitions**
+
+
+By default, the competitions list is set to display **Open competitions**, however, you can always re-visit **closed competitions** and filter the view by clicking the **Show Closed Competitions** button
+
+
+![mceclip7.png](../../../resources/article-images/13870035407507-Filter-Competitions_5.png)
+
+
+From the Closed Competitions view, you'll also have the option to filter by **Competition Name** or **Category + Subcategory.** To go back to the open competitions, click the **Show Open Competitions** button
+
+
+![mceclip8.png](../../../resources/article-images/13870035407507-Filter-Competitions_6.png)
+
+
+

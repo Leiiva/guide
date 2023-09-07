@@ -1,0 +1,37 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Quick Search Session(s)</ClickableTitle>
+
+
+
+
+1. From the desired event navigate to **Sessions**
+
+
+![mceclip0.png](../../../resources/article-images/4494315015955-Quick-Search-Session-s_1.png)
+
+
+2. In the **Quick Search By Title** type in keyword
+
+
+![mceclip0.png](../../../resources/article-images/4494315015955-Quick-Search-Session-s_2.png)
+
+
+3. Wait a couple of seconds and the list of sessions will show all sessions with the keyword
+
+
+

@@ -1,0 +1,37 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Modify Review Assignments</ClickableTitle>
+
+
+
+
+Sometimes it is required to un/re-assign a review, e.g. when a reviewer wants to recuse themselves, or they are unavailable and a replacement needs/ has been found.
+
+
+1. Navigate to the desired submission detail page 
+
+
+2. Scroll to the **Reviews** section in the submission
+
+
+3. Select **UNASSIGN** for the reviewers you would like to remove
+
+
+4. **Search** and **Select** the user(s) you would like to add as reviewers
+
+
+

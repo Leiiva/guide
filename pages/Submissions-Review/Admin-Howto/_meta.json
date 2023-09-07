@@ -1,0 +1,254 @@
+{
+  "Call_Categories": {
+    "title": "Call Categories",
+    "display": "hidden"
+  },
+  "Create_a_Call": {
+    "title": "Create a Call",
+    "display": "hidden"
+  },
+  "Enable_Submissions_Voting": {
+    "title": "Enable Submissions Voting",
+    "display": "hidden"
+  },
+  "Impexium_Log_In": {
+    "title": "Impexium Log In",
+    "display": "hidden"
+  },
+  "Traditional_Log_In": {
+    "title": "Traditional Log In",
+    "display": "hidden"
+  },
+  "(Impersonate)_Submit_On-behalf_Of": {
+    "title": "(Impersonate) Submit On-behalf Of",
+    "display": "hidden"
+  },
+  "Accept_-_Reject_Transferred_Submission(s)": {
+    "title": "Accept - Reject Transferred Submission(s)",
+    "display": "hidden"
+  },
+  "Additional_Form": {
+    "title": "Additional Form",
+    "display": "hidden"
+  },
+  "Add_an_Additional_Phase": {
+    "title": "Add an Additional Phase",
+    "display": "hidden"
+  },
+  "Allow_Co-Author_Collaboration": {
+    "title": "Allow Co-Author Collaboration",
+    "display": "hidden"
+  },
+  "Assign_Reviewers": {
+    "title": "Assign Reviewers",
+    "display": "hidden"
+  },
+  "Assign_Specific_Call_Admins_-_Chair_-_Manager": {
+    "title": "Assign Specific Call Admins - Chair - Manager",
+    "display": "hidden"
+  },
+  "Bulk_Email_Reviewers": {
+    "title": "Bulk Email Reviewers",
+    "display": "hidden"
+  },
+  "Bulk_Email_Submitter(s)": {
+    "title": "Bulk Email Submitter(s)",
+    "display": "hidden"
+  },
+  "Bulk_Import_Reviewers_Invite": {
+    "title": "Bulk Import Reviewers Invite",
+    "display": "hidden"
+  },
+  "Call_Configuration__Communication_Settings": {
+    "title": "Call Configuration  Communication Settings",
+    "display": "hidden"
+  },
+  "Call_Inbox": {
+    "title": "Call Inbox",
+    "display": "hidden"
+  },
+  "Call_Linking": {
+    "title": "Call Linking",
+    "display": "hidden"
+  },
+  "Call_Time_Zone": {
+    "title": "Call Time Zone",
+    "display": "hidden"
+  },
+  "Copy_a_Call": {
+    "title": "Copy a Call",
+    "display": "hidden"
+  },
+  "Create_a_Call_Report": {
+    "title": "Create a Call Report",
+    "display": "hidden"
+  },
+  "Create_a_Query_-_Customize_Your_Interactive_Spreadsheet": {
+    "title": "Create a Query - Customize Your Interactive Spreadsheet",
+    "display": "hidden"
+  },
+  "Create_a_Review_Form": {
+    "title": "Create a Review Form",
+    "display": "hidden"
+  },
+  "Create_a_Review_Phase": {
+    "title": "Create a Review Phase",
+    "display": "hidden"
+  },
+  "Create_Custom_PDF_Templates_for_Submissions_Export": {
+    "title": "Create Custom PDF Templates for Submissions Export",
+    "display": "hidden"
+  },
+  "Create_Tag(s)": {
+    "title": "Create Tag(s)",
+    "display": "hidden"
+  },
+  "Delete_a_Submission-_Review_Phase": {
+    "title": "Delete a Submission- Review Phase",
+    "display": "hidden"
+  },
+  "Delete_Call": {
+    "title": "Delete Call",
+    "display": "hidden"
+  },
+  "E-mail_Blind_Copy_for_a_Call_Phase": {
+    "title": "E-mail Blind Copy for a Call Phase",
+    "display": "hidden"
+  },
+  "Edit_a_Live-Form": {
+    "title": "Edit a Live-Form",
+    "display": "hidden"
+  },
+  "Edit_a_Submitter's_Submission": {
+    "title": "Edit a Submitter's Submission",
+    "display": "hidden"
+  },
+  "Email_Submitter(s)": {
+    "title": "Email Submitter(s)",
+    "display": "hidden"
+  },
+  "Embedding_Slayte_Call_Forms_in_Impexium_Sites": {
+    "title": "Embedding Slayte Call Forms in Impexium Sites",
+    "display": "hidden"
+  },
+  "Enable-Disable_Review_Revision_Notifications": {
+    "title": "Enable-Disable Review Revision Notifications",
+    "display": "hidden"
+  },
+  "Enable-Disable_Submission_Withdraw": {
+    "title": "Enable-Disable Submission Withdraw",
+    "display": "hidden"
+  },
+  "Enable_Call_Messaging": {
+    "title": "Enable Call Messaging",
+    "display": "hidden"
+  },
+  "Enable_Submission_Library": {
+    "title": "Enable Submission Library",
+    "display": "hidden"
+  },
+  "Export-Link_submissions_to_an_Event_from_a_Call": {
+    "title": "Export-Link submissions to an Event from a Call",
+    "display": "hidden"
+  },
+  "Export-Print_a_Single_Submission": {
+    "title": "Export-Print a Single Submission",
+    "display": "hidden"
+  },
+  "Export_Reviews": {
+    "title": "Export Reviews",
+    "display": "hidden"
+  },
+  "Export_Submission(s)": {
+    "title": "Export Submission(s)",
+    "display": "hidden"
+  },
+  "Import_Submissions_via_CSV": {
+    "title": "Import Submissions via CSV",
+    "display": "hidden"
+  },
+  "Manage_Authors-_Co-Authors_on_behalf_of_Submitters": {
+    "title": "Manage Authors- Co-Authors on behalf of Submitters",
+    "display": "hidden"
+  },
+  "Manage_End-Users_Drafts_Submissions": {
+    "title": "Manage End-Users Drafts Submissions",
+    "display": "hidden"
+  },
+  "Modify_Review_Assignments": {
+    "title": "Modify Review Assignments",
+    "display": "hidden"
+  },
+  "Name_Generator_Field": {
+    "title": "Name Generator Field",
+    "display": "hidden"
+  },
+  "Payment_Options_for_Submissions": {
+    "title": "Payment Options for Submissions",
+    "display": "hidden"
+  },
+  "Refetch_Serverfields_for_All_Submissions": {
+    "title": "Refetch Serverfields for All Submissions",
+    "display": "hidden"
+  },
+  "Refresh_External_Data": {
+    "title": "Refresh External Data",
+    "display": "hidden"
+  },
+  "Remove_Assigned_Reviewers": {
+    "title": "Remove Assigned Reviewers",
+    "display": "hidden"
+  },
+  "Remove_Reviewer_Invite": {
+    "title": "Remove Reviewer Invite",
+    "display": "hidden"
+  },
+  "Rename_a_Submitter's_Submission": {
+    "title": "Rename a Submitter's Submission",
+    "display": "hidden"
+  },
+  "Reset_a_Call": {
+    "title": "Reset a Call",
+    "display": "hidden"
+  },
+  "Review_Privacy_Settings": {
+    "title": "Review Privacy Settings",
+    "display": "hidden"
+  },
+  "Save_a_Call_Draft": {
+    "title": "Save a Call Draft",
+    "display": "hidden"
+  },
+  "Send_Review_Feedback": {
+    "title": "Send Review Feedback",
+    "display": "hidden"
+  },
+  "Set_a_Submission_Count_Limit": {
+    "title": "Set a Submission Count Limit",
+    "display": "hidden"
+  },
+  "Submissions_Bulk_Actions": {
+    "title": "Submissions Bulk Actions",
+    "display": "hidden"
+  },
+  "Transfer_a_Single_Submission": {
+    "title": "Transfer a Single Submission",
+    "display": "hidden"
+  },
+  "Update_a_Single_Submission_Status": {
+    "title": "Update a Single Submission Status",
+    "display": "hidden"
+  },
+  "Update_Call_Status": {
+    "title": "Update Call Status",
+    "display": "hidden"
+  },
+  "Update_Outdated_Contact_Information_in_a_Submission": {
+    "title": "Update Outdated Contact Information in a Submission",
+    "display": "hidden"
+  },
+  "Use_Static_Text_Field_to_Embed_PDF_Instructions": {
+    "title": "Use Static Text Field to Embed PDF Instructions",
+    "display": "hidden"
+  }
+}

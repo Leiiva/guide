@@ -1,0 +1,32 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>What is a Call?</ClickableTitle>
+
+
+
+
+A call is a general term for an invitation to submit content. Content is then collected in a Submission Phase, and reviewed afterwards in a Review Phase by a group of reviewers.
+
+
+Calls can be used to collect content for a variety of different use cases:
+
+
+* **Call for Conference Papers** *Example*: The goal is to find the best presenters/presentations for a conference. A submission phase in which speakers upload their papers is followed by a review phase where a committee of reviewers filters out the papers/speakers they will invite to present at their conference.
+* **Call for Proposals / RFP** *Example*: The goal is to find a vendor with the best proposal for a certain use case. A description of the goal is put up on a public website, vendors are invited to submit their proposals (the submission). Then a group of reviewers selects the best vendor based on their proposal, the company decides to move forward with this vendor.
+* **Nomination** *Example*: An association wants to fill several board seats. They create a submission phase where the submitter selects their nominee and the board position, they nominate them for. The existing board evaluates all nominations and eventually invites the member with the most nominations.
+
+

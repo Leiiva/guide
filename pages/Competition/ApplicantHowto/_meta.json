@@ -1,0 +1,18 @@
+{
+  "Edit_an_Application": {
+    "title": "Edit an Application",
+    "display": "hidden"
+  },
+  "How_to_Save_an_Application_Draft": {
+    "title": "How to Save an Application Draft",
+    "display": "hidden"
+  },
+  "Register_an_Application": {
+    "title": "Register an Application",
+    "display": "hidden"
+  },
+  "Withdraw_an_Application": {
+    "title": "Withdraw an Application",
+    "display": "hidden"
+  }
+}

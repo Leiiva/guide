@@ -1,0 +1,122 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Slayte Terms and Definitions</ClickableTitle>
+
+
+
+
+**Call:** A call is a generic term for an invitation to submit content. Usually content is collected in a Submission Phase and later reviewed in a Review Phase.
+
+
+**Submission:** A Submission is content submitted to a Call. In a Call for Papers for example a Submission entry could be an abstract proposal sent in by a Submitter.
+
+
+**Review:** Reviews are evaluations completed on Submissions during a Review Phase. Usually a group of users can be assigned to be Reviewers, and they will have the task of examining Submissions assigned to them.
+
+
+**Submitter:** Submitters are the users that can submit content into a Call.
+
+
+**Reviewer:** Reviewers are the users that are assigned to provide reviews on Submissions.
+
+
+**Administrator:** Administrators have the ability to create Calls, Events, Competitions, Grants, Reach and Education programs all within the Slayte app. They also have the ability to manage users within a Slayte instance and assign account permissions accordingly.
+
+
+**Reviewer Group:** A group of users assigned to review Submissions in a Call. Creating a Reviewer Group makes it easy to assign Reviewers, and also helps to keep track of which Reviewers have outstanding reviews to complete.
+
+
+**Call Phases:** A Call Phase is a time-frame in a Call during which certain settings apply. There are two types:
+
+
+* Submission Phases
+* Review Phases
+
+
+Multiple Submission Phases can be added to a Call, however it is important that once Submissions start being collected there is no ambiguity in which Phase a Submission should belong to. The same applies for the Review Phase, multiple Submission Phases and Multiple Review Phases should have no overlapping dates.
+
+
+**Submission Phase:** This describes the time period where Submissions will be accepted into a Call. To create a Call, at least one Submission Phase needs to be added.
+
+
+**Review Phase:** This describes the time period where reviews are left on the Submissions that have been previously collected. Review Phases are optional and only needed to be added if Submissions need to be reviewed.
+
+
+**Blind Review:** Blind Review allows you to create an anonymous reviewing process by hiding the Submitter’s details from the Reviewer. For this to work correctly, you will need to select this option, and also select the checkbox ‘Hide in Blind Review’ for any manually inputted Submission detail that you would like to keep hidden from reviewers.
+
+
+**Shared Review:** Shared Reviews allow Reviews to be shared between Reviewers by sharing direct links.
+
+
+**Reviewer Allocation:** This determines how Reviews will be assigned. You can either choose Automatic Review which will automatically assign reviews as Submissions are submitted, or manual which will allow you to assign reviews personally.
+
+
+**Time zone****:** This will ensure all phase dates, notifications and created events are linked to a specific time zone of your choice.
+
+
+**Call Template:** The Call Template defines the Call Phases, and all configuration in them, their dates (and potential overlaps) and most importantly the dependencies between them. The Call Template would dictate through the ordering on the Phases that the first Submission Phase has submissions that will be reviewer in Review Phase X with Form A, followed by e.g. Review Phase “Senior Review” with Review Form Y.
+
+
+**Bulk Actions:** Bulk Actions can be found on the Submission List View and can be used to apply multiple actions to Submissions simultaneously. You have the options to: Assign Reviewers, Modify Review Assignments, Import Reviews, Manage the Call Phase, Accept/Reject Submissions, Tag and send Message Confirmations.
+
+
+**Tags:** Tags are free-text categories use to categorize Submissions. These can either be assigned individually or in bulk to help organize Submissions effectively.
+
+
+**Calls – Released:** Once you have created a call, you will need to ensure you toggle the ‘Released’ button to ensure that Submitters are able to access this Call.
+
+
+**Category:** Categories organize Calls based on criteria or your choice. Once you create Categories for your Calls you will see the Categories listed on the top-level Calls page.
+
+
+**Customize View:** The Submission List View can be customized to display custom columns of your choice and these can even include Form Fields from your Submission and Review Forms.
+
+
+**Filtering:** Filtering allows you to search for specific Submissions based on criteria of your choice. Filters can also be used to sort submissions in Ascending/ Descending order or to find submissions that lie between certain boundaries.
+
+
+**Pending Drafts:** In the Submission List View you will be able to see the incomplete Submissions that are currently pending in your call. These will be displayed on the top right-hand side.
+
+
+**Call Reporting:** Call Reporting allows you to create, capture and export key metrics on your Calls with real-time data. These can be adjusted to your preferences and more charts can be added by clicking ‘Add Chart’.
+
+
+**Status**: The Status defines whether a Call is open for receiving Submissions or not. To ensure a Call is open you must set the status to **Open** and ensure the Phase dates include today’s date.
+
+
+**Category**: Categories allow you to group Calls that are similar together on the Calls page. If you are holding several Calls for Research Proposals for example, you could create Call categories based on Research Topics. You can either choose a call category or create a new one to assign to.
+
+
+**Public**: This option enables the Call to be visible to unregistered users visiting your Slayte site.
+
+
+**Released**: This makes the Call available to your users in Slayte. For Submitters to submit to your Call and Reviewers to leave their Reviews, you will need to ensure the Call is set to **Released/Public**.
+
+
+**Direct Link to Submission Form**: This displays a shareable link to the Submission Form that can be shared with Submitters, Reviewers and other Administrators.
+
+
+**Description**: Fill in a short description for your Call that will be visible to all users accessing it. It may be helpful to add information about the Call, guidelines, and submission instructions to help guide users.
+
+
+**Submit**: This feature allows you to experience Submitting to a Call from the perspective of a Submitter, whilst still being logged in as Administrator. This is useful for testing the Submission process without having to switch to a test Submitter account. This article on Experiencing How to Submit provides more detail on this.
+
+
+**Timelines**: See an overview of the Phases in your Call, their corresponding dates, deadlines and any overlaps between them.
+
+
+

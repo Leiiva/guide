@@ -1,0 +1,90 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Bulk Assign/Unassigned Judges</ClickableTitle>
+
+
+
+
+1. From the Home page, click **Competitions**  
+2. Select the desired competition, and click **View**  
+3. From the **Performances** tab, locate the **Performance Group** and click **View**
+
+
+**![mceclip0.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_1.png)**
+
+
+**Note:** if the Competition has Performance Groups disabled, you will be routed directly to the performances' list.
+
+
+4. Click the **checkbox** to select some or all performances
+
+
+![mceclip0.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_2.png)
+
+
+5. Once selected, the **Bulk Action** button ![mceclip2.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_3.png)will be enabled. From the pop-up window, you can select **Assign Reviewers/Judges** or **Unassign Reviewers/Judges**
+
+
+# **Assign Judges**
+
+
+1. First, select judges. You can assign them **Individually** or use a **Group** including all selected judged
+
+
+![mceclip1.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_4.png)  
+2. In the **Assignment Rules** section, you can select any of the following options:
+
+
+* Each performance is reviewed by EVERY judge
+* Each performance is reviewed by ONE judge
+* Custom. You can personalize your assignment by setting a min-max number of assignments per **Judge** and **Performance**. And decide how the assignment strategy will be applied, between **Evenly**, **Random,** or **Least Queue**
+
+
+**![mceclip1.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_5.png)**
+
+
+3. If desired, click the checkbox to select **Ignore existing judge-assignments**. When computing the assignments to be made, the rules configured above can either be applied ignoring any previous assignments, or the rules can incorporate those existing assignments on the submissions selected.
+
+
+4. Click **Assign**
+
+
+**![mceclip2.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_6.png)**
+
+
+5. You will receive the following confirmation message
+
+
+![mceclip3.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_7.png)
+
+
+# **Unassigned Judges**
+
+
+1. From the unassign Judge window, judges are displayed as rows and performances as columns. Click to check the box under the judge name to select all performances, or check the box of each performance you would like to unassign 
+
+
+![mceclip4.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_8.png)
+
+
+2. Click **Unassign** 
+
+
+![mceclip5.png](../../../resources/article-images/13937461858451-Bulk-Assign-Unassigned-Judges_9.png)
+
+
+

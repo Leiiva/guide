@@ -1,0 +1,46 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Start a Chat on a Submission</ClickableTitle>
+
+
+
+
+When enabled by the Administrator, you can initiate a Chat per submission basis with the Administrator and Reviewer to discuss details of the submission or review, comments, etc. To start a **Chat**, follow these steps:
+
+
+1. Go to **Submissions**, and click the desired **submission tile**  
+2. From the **Chat section**, click **Open Chat**
+
+
+![mceclip0.png](../../../resources/article-images/13828102436243-Start-a-Chat-on-a-Submission_1.png)   
+3. Type your message and click **Send**
+
+
+![mceclip1.png](../../../resources/article-images/13828102436243-Start-a-Chat-on-a-Submission_2.png)  
+4. If you are no longer in the chat window, for new messages; you will receive a red alert on the envelope icon on the right top corner of your profile section
+
+
+![mceclip2.png](../../../resources/article-images/13828102436243-Start-a-Chat-on-a-Submission_3.png)
+
+
+Or when accessing the submission, in the Chat section you'll see **You have unread messages**
+
+
+**![mceclip3.png](../../../resources/article-images/13828102436243-Start-a-Chat-on-a-Submission_4.png)**
+
+
+

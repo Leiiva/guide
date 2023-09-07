@@ -1,0 +1,22 @@
+{
+  "Is_my_information_safe_in_Slayte": {
+    "title": "Is my information safe in Slayte",
+    "display": "hidden"
+  },
+  "What_browser_types_are_supported": {
+    "title": "What browser types are supported",
+    "display": "hidden"
+  },
+  "What_is_a_Call": {
+    "title": "What is a Call",
+    "display": "hidden"
+  },
+  "What_is_a_strong_password": {
+    "title": "What is a strong password",
+    "display": "hidden"
+  },
+  "What_is_the_Terms_of_Use": {
+    "title": "What is the Terms of Use",
+    "display": "hidden"
+  }
+}

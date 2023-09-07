@@ -1,0 +1,40 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>How to Save an Application Draft</ClickableTitle>
+
+
+
+
+While registering an application, you can save a Draft with the progress to continue with registration at a later time from where you left off, by clicking the **Save Draft** button on the right top corner, of the Application page.
+
+
+![mceclip0.png](../../../resources/article-images/14259982860051-How-to-Save-an-Application-Draft_1.png)
+
+
+Once saved, you will receive the following confirmation message at the top of the screen. Then you can leave the page.
+
+
+![mceclip2.png](../../../resources/article-images/14259982860051-How-to-Save-an-Application-Draft_2.png)
+
+
+When you are ready to complete the application, from the application main page click **Register** to be taken to the previously saved draft
+
+
+![mceclip3.png](../../../resources/article-images/14259982860051-How-to-Save-an-Application-Draft_3.png)
+
+
+

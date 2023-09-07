@@ -1,0 +1,31 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Is my information safe in Slayte?</ClickableTitle>
+
+
+
+
+
+
+
+Yes, your account information and usage is safe in Slayte with our **256-bit encryption**. The padlock in the URL bar means that the site is verified as **secure** with a digital certificate. This also means that any information sent between your browser and Slayte is sent securely, and can't be intercepted and read by someone else while the information is in transit. 
+
+
+
+
+
+

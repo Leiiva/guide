@@ -1,6 +1,9 @@
 {
-  "index": "Introduction",
-  "Submissions-Review": "Submissions & Review",
-  "testing": "Tesing",
-  "testpush":"Tesing - Push"
+  "index": "Home",
+  "another": "Another Page",
+  "Competition": "Competition",
+  "Conference-Manager": "Conference Manager",
+  "Education-Credits": "Education Credits",
+  "General": "General",
+  "Submissions-Review": "Submissions & Review"
 }

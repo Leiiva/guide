@@ -1,0 +1,60 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Bulk email to Participants</ClickableTitle>
+
+
+
+
+1. From the Home page, click **Competitions**   
+2. Select the desired competition, and click **View**   
+3. From the **Performances** tab, locate the **Performance Group** to communicate to and click **View**
+
+
+**![mceclip0.png](../../../resources/article-images/13936601897875-Bulk-email-to-Participants_1.png)****Note:** if the Competition has Performance Groups disabled, you will be routed directly to the performances' list.
+
+
+4. Click the **checkbox** to select some or all Participants 
+
+
+![mceclip1.png](../../../resources/article-images/13936601897875-Bulk-email-to-Participants_2.png)
+
+
+5. Once selected the **Bulk Action** button  ![mceclip2.png](../../../resources/article-images/13936601897875-Bulk-email-to-Participants_3.png)will be enabled, click it and select **Email** from the list 
+
+
+![mceclip1.png](../../../resources/article-images/13936601897875-Bulk-email-to-Participants_4.png)
+
+
+6. From the Send E-mail window, first select the **Recipient(s)** to be **Applicants only** or **All Participants**  
+7. Type a **Subject** and the **Body** of the message. Type @ to use a placeholder, and click or press TAB to confirm
+
+
+![mceclip3.png](../../../resources/article-images/13936601897875-Bulk-email-to-Participants_5.png)  
+8. Optional. By default, **Send me a Copy** is selected, you can remove it if you don't want to receive a copy of the message  
+9. Click **Send**
+
+
+**![mceclip4.png](../../../resources/article-images/13936601897875-Bulk-email-to-Participants_6.png)**
+
+
+10. You will receive the following confirmation message
+
+
+![mceclip5.png](../../../resources/article-images/13936601897875-Bulk-email-to-Participants_7.png)
+
+
+

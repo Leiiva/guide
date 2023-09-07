@@ -1,0 +1,47 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Export Competition Winners</ClickableTitle>
+
+
+
+
+1. From the Home Page, go to **Competitions** and click **View** on the desired **Competition**  
+2. Click the **Performances** tab, when Performances Groups is enabled; click **View** next to the desired group.
+
+
+![mceclip0.png](../../../resources/article-images/14251121265171-Export-Competition-Winners_1.png)
+
+
+3. Click **View Winners** 
+
+
+![mceclip1.png](../../../resources/article-images/14251121265171-Export-Competition-Winners_2.png)
+
+
+4. On the preview pop-up window, click **Export**
+
+
+![mceclip4.png](../../../resources/article-images/14251121265171-Export-Competition-Winners_3.png)
+
+
+5. From the confirmation window, click **Export Report**
+
+
+![mceclip5.png](../../../resources/article-images/14251121265171-Export-Competition-Winners_4.png)
+
+
+

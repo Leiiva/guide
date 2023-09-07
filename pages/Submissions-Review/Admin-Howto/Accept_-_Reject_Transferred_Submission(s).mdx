@@ -1,0 +1,37 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Accept / Reject Transferred Submission(s)</ClickableTitle>
+
+
+
+
+1. From the call where the submission was transferred to select **INBOX**
+
+
+![mceclip1.png](../../../resources/article-images/4413760433811-Accept-Reject-Transferred-Submission-s_1.png)
+
+
+2. Select **ACCEPT**
+
+
+![mceclip2.png](../../../resources/article-images/4413760433811-Accept-Reject-Transferred-Submission-s_2.png)
+
+
+3. **Dismiss** acknowledgment of successful submission transfer
+
+
+

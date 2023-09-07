@@ -1,0 +1,55 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Edit a Submitter's Submission</ClickableTitle>
+
+
+
+
+Making changes to submissions may be useful for fixing grammatical errors or adjusting previously submitted information. As an administrator, you can either make changes to the submission yourself or you can [Allow Users to Edit Submissions](https://docs-for-customers.slayte.com/hc/en-us/articles/4412149700627).
+
+
+1. Navigate to the **Call** holding the submission you would like to modify or select from the **Submissions** tab
+
+
+2. Click **View** on the Submission you would like to edit
+
+
+![mceclip0.png](../../../resources/article-images/4413293400595-Edit-a-Submitter-s-Submission_1.png)
+
+
+3. From the submission detail, select the action **REVISE/EDIT**
+
+
+![mceclip1.png](../../../resources/article-images/4413293400595-Edit-a-Submitter-s-Submission_2.png)
+
+
+4. You have been redirected to the submission to make the necessary **edits**
+
+
+5. When finished, click **SAVE**
+
+
+![mceclip3.png](../../../resources/article-images/4413293400595-Edit-a-Submitter-s-Submission_3.png)
+
+
+6. You will then be able to **VIEW SUBMISSION** or navigate elsewhere
+
+
+![mceclip4.png](../../../resources/article-images/4413293400595-Edit-a-Submitter-s-Submission_4.png)
+
+
+

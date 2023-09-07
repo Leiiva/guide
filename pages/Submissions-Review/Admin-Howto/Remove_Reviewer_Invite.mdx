@@ -1,0 +1,49 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Remove Reviewer Invite</ClickableTitle>
+
+
+
+
+1. From the desired call, click the **Reviewers** tab from the top bar 
+
+
+2. Select some or all reviewers by checking the checkbox to left 
+
+
+![mceclip2.png](../../../resources/article-images/13621037922835-Remove-Reviewer-Invite_1.png)
+
+
+3. Click the **Actions** button 
+
+
+4. Select **Remove Reviewer Volunteer(s)**
+
+
+**![mceclip0.png](../../../resources/article-images/13621037922835-Remove-Reviewer-Invite_2.png)**
+
+
+5. Click Yes to complete the process 
+
+
+![mceclip3.png](../../../resources/article-images/13621037922835-Remove-Reviewer-Invite_3.png)
+
+
+**Note:** if the reviewer has already assigned reviews, he/she won't be able to review them anymore; and said reviews will need to be manually removed
+
+
+

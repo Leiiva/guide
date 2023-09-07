@@ -1,0 +1,52 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Export: Participant Book</ClickableTitle>
+
+
+
+
+1. From the desired event navigate to **Sessions**
+
+
+![mceclip0.png](../../../resources/article-images/4938396247827-Export-Participant-Book_1.png)
+
+
+2. Select the **Export** icon
+
+
+![mceclip0.png](../../../resources/article-images/4938396247827-Export-Participant-Book_2.png)
+
+
+3. Select **Export Option**then Export: Participant Book
+
+
+4. Select from **Available Fields** section and drag and drop options into **User Fields** then select **NEXT**
+
+
+5. From the **Session EXPORT COLUMNS** select **Available Fields** then **NEXT**
+
+
+6. From the **SUBSESSIONS FIELDS** select **Available Fields** then **FINISH**
+
+
+7. Select **CLOSE** on "Your export is being generated and will be sent to your email shortly..."
+
+
+8. Navigate to your email to **download CSV** report titled: **Report: Participation Export**
+
+
+

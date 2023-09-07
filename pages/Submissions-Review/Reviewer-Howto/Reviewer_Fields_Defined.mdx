@@ -1,0 +1,109 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Reviewer Fields Defined</ClickableTitle>
+
+
+
+
+Find below the available Review From criteria used to rate Submissions. 
+
+
+### Review Comment
+
+
+A single line of text for the Reviewer to leave a comment about the field in question. You can enable Rich text or add a restriction (e.g. Max/Min # characters or words)
+
+
+![mceclip0.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_1.png)
+
+
+### Dropdown
+
+
+Allow the Reviewer to select a single value from a list of provided options. You can add options in bulk with the **Add Options From a File**, and also set a **Default option** to be displayed if any. 
+
+
+![mceclip1.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_2.png)
+
+
+### Selection (Single)
+
+
+Reviewers can select a single option, with all options being visibly listed above one another. Options can be added individually by clicking **Add Option,** or in bulk by clicking **Add Options From File**.
+
+
+![mceclip3.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_3.png)
+
+
+### Selection (Multiple)
+
+
+Allow reviewers to select more than one option from a list, with all options being visibly listed above one another. Options can be added individually by clicking **Add Option,** or in bulk by clicking **Add Options From File**.
+
+
+![mceclip2.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_4.png)
+
+
+### Slider
+
+
+Slider criteria allow you to create a sliding scale to provide a rating on a Submission, based on a range you define (from Min to Max)
+
+
+![mceclip4.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_5.png)
+
+
+### Yes/No
+
+
+This will provide the Reviewers with the specific options of Yes or No
+
+
+![mceclip5.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_6.png)
+
+
+### Attachment
+
+
+Allow Reviewers to upload documents as attachments. You can label this field with a specific display name, restrict the allowed file types, the number of files to upload, and customize the filename. 
+
+
+![mceclip6.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_7.png)
+
+
+## **Static elements**
+
+
+### Static Text
+
+
+Display static text, e.g. instructions
+
+
+![mceclip7.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_8.png)
+
+
+### Static Attachment
+
+
+Allows you to upload a file that will remain fixed to this area
+
+
+![mceclip8.png](../../../resources/article-images/4412806652435-Reviewer-Fields-Defined_9.png)
+
+
+

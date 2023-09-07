@@ -1,0 +1,69 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Export Submission(s)</ClickableTitle>
+
+
+
+
+1. Navigate to the desired **call**
+
+
+2. Select the **Submissions** tab menu option
+
+
+![mceclip0.png](../../../resources/article-images/115009676927-Export-Submission-s_1.png)
+
+
+3. Select the **ellipses** on the top right
+
+
+![mceclip1.png](../../../resources/article-images/115009676927-Export-Submission-s_2.png)
+
+
+4. Click **Export**
+
+
+![mceclip2.png](../../../resources/article-images/115009676927-Export-Submission-s_3.png)
+
+
+5. Select the **export format**you prefer (CSV or PDF)
+
+
+6. When selecting CSV, choose whether you would like to export the Submissions visible in your current View or All Submissions
+
+
+* **Only Visible submissions** will export the Submissions that are currently displayed in your Submission List View.
+* **All Submissions** will provide you with the options to export:
+	+ **Visible Columns** will export all the Submissions in your Call for the columns that are currently in the Submission List View.
+	+ **All Fields** will export all the collected responses for each Form Field added to your Submission Form.
+	+ **All Fields and Review Criteria** will export all collected answers from every Submission Field and Review Field.
+* **Highlight primary authors** will export with an asterisk.
+
+
+![mceclip1.png](../../../resources/article-images/115009676927-Export-Submission-s_4.png)
+
+
+6. Click **EXPORT CSV**
+
+
+7. If selecting PDF, click **GENERATE PDF**
+
+
+![mceclip2.png](../../../resources/article-images/115009676927-Export-Submission-s_5.png)
+
+
+

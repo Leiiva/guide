@@ -1,0 +1,64 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Accept / Recuse Review</ClickableTitle>
+
+
+
+
+1. From the Home screen select **Reviews** from the left pane or tile
+
+
+![mceclip1.png](../../../resources/article-images/4412370558099-Accept-Recuse-Review_1.png)
+
+
+2. Navigate to the **Waiting for review (#)** section [please note, the number will automatically change as submissions are assigned to the reviewer] then select the desired call. If there are multiple submissions within the call it will be presented to the reviewer.
+
+
+![mceclip2.png](../../../resources/article-images/4412370558099-Accept-Recuse-Review_2.png)
+
+
+3. Once in the submission the reviewer will have two options **REVIEW NOW** or **RECUSE YOURSELF**
+
+
+![mceclip3.png](../../../resources/article-images/4412370558099-Accept-Recuse-Review_3.png)
+
+
+4. If selected **REVIEW NOW,** the reviewer is presented with the completed submission and the review criteria
+
+
+5. Once the review has been completed, select **SUBMIT REVIEW**
+
+
+![mceclip4.png](../../../resources/article-images/4412370558099-Accept-Recuse-Review_4.png)
+
+
+If instead, you don't want to review the submission; click **RECUSE YOURSELF**
+
+
+![mceclip0.png](../../../resources/article-images/4412370558099-Accept-Recuse-Review_5.png)
+
+
+From the pop- up window, click **YES** to continue 
+
+
+![mceclip1.png](../../../resources/article-images/4412370558099-Accept-Recuse-Review_6.png)
+
+
+**Note:** You will no longer be able to review this submission, and the administrators will get notified of your recusal.
+
+
+

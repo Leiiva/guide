@@ -1,0 +1,61 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Filter Session(s)</ClickableTitle>
+
+
+
+
+The Sessions List View can be modified, reordered and saved for later use. Once you are pleased with the list format you can save your current view by clicking Save View on the left-hand side of the page. The saved view will include any Filters or column sorting added. Whichever filter was last loaded/saved on your Sessions list will be used the next time the Session list is loaded.
+
+
+ 
+
+
+1. From the desired event navigate to **Sessions**
+
+
+![mceclip0.png](../../../resources/article-images/4494245622291-Filter-Session-s_1.png)
+
+
+2. Select the **Filter** icon
+
+
+![mceclip0.png](../../../resources/article-images/4494245622291-Filter-Session-s_2.png)
+
+
+3. Select **+ADD FILTER**
+
+
+4. Click inside **Pick a Field**
+
+
+![mceclip1.png](../../../resources/article-images/4494245622291-Filter-Session-s_3.png)
+
+
+5. Choose from the session list of options to select from
+
+
+6. When ready select the **APPLY FILTER** button
+
+
+![mceclip2.png](../../../resources/article-images/4494245622291-Filter-Session-s_4.png)
+
+
+7. Your session list will update showing only the **filtered results**
+
+
+

@@ -1,0 +1,61 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Import Submissions via CSV</ClickableTitle>
+
+
+
+
+1. Go to **Calls**, and select the desired call 
+
+
+2. Click the **Submissions** tab from the top bar 
+
+
+3. Click the **ellipsis** button to the right, and select from the pop-up menu **Import Submissions via CSV**
+
+
+4. Select the **Phase to import** to. 
+
+
+5. /*Optional. You can download a template file, to fill in your values; which is prepared with the correct column titles already. Or click **Continue**to **upload** a file by clicking in the upload section or dragging a file 
+
+
+![mceclip0.png](../../../resources/article-images/13551564389523-Import-Submissions-via-CSV_1.png)
+
+
+5. Once uploaded, click **Continue**
+
+
+![mceclip1.png](../../../resources/article-images/13551564389523-Import-Submissions-via-CSV_2.png)
+
+
+6. A preview of the submissions will be displayed. Here, you can also decide if a new user will be created if it doesn't exist yet at the moment of the import by toggling ON - **Create any missing user accounts in Slayte.**
+
+
+**![mceclip2.png](../../../resources/article-images/13551564389523-Import-Submissions-via-CSV_3.png)**
+
+
+7. When ready, click **Import**
+
+
+8. A pop-up confirmation will appear, click **Dismiss**. 
+
+
+![mceclip4.png](../../../resources/article-images/13551564389523-Import-Submissions-via-CSV_4.png)
+
+
+

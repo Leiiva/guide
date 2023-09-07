@@ -1,0 +1,52 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Delete an Event</ClickableTitle>
+
+
+
+
+1. From the Home page select **Events** from the tile or from the left pane
+
+
+![mceclip1.png](../../../resources/article-images/4413816092051-Delete-an-Event_1.png)
+
+
+2. Select the desired event
+
+
+3. Select **General** 
+
+
+![mceclip3.png](../../../resources/article-images/4413816092051-Delete-an-Event_2.png)
+
+
+4. Scroll all the way to the bottom of the page, then click **Delete Event**
+
+
+**![mceclip0.png](../../../resources/article-images/4413816092051-Delete-an-Event_3.png)**
+
+
+5. From the confirmation window, click **Yes, Delete**
+
+
+![mceclip0.png](../../../resources/article-images/4413816092051-Delete-an-Event_4.png)
+
+
+6. You will be redirected to the **Events** page
+
+
+

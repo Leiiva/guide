@@ -1,0 +1,46 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Bulk Move Performances to Another Group</ClickableTitle>
+
+
+
+
+1. From the Home page, click **Competitions**  
+2. Select the desired competition, and click **View**  
+3. From the **Performances** tab, locate the **Performance Group** and click **View**
+
+
+**![mceclip0.png](../../../resources/article-images/13938420638355-Bulk-Move-Performances-to-Another-Group_1.png)****Note:** if the Competition has Performance Groups disabled, you will be routed directly to the performances' list.
+
+
+4. Click the **checkbox** next to each performance to select some or all performances
+
+
+![mceclip0.png](../../../resources/article-images/13938420638355-Bulk-Move-Performances-to-Another-Group_2.png)  
+5. Once selected the **Bulk Action** button ![mceclip2.png](../../../resources/article-images/13938420638355-Bulk-Move-Performances-to-Another-Group_3.png)will be enabled, click it and select **Move to Another Group**
+
+
+![mceclip1.png](../../../resources/article-images/13938420638355-Bulk-Move-Performances-to-Another-Group_4.png)
+
+
+6. Select the desired group from the drop-down menu, and click **Save**. 
+
+
+![mceclip2.png](../../../resources/article-images/13938420638355-Bulk-Move-Performances-to-Another-Group_5.png)
+
+
+

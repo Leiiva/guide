@@ -1,0 +1,46 @@
+{
+  "Accept_-_Decline_Invitation_to_Review": {
+    "title": "Accept - Decline Invitation to Review",
+    "display": "hidden"
+  },
+  "Accept_-_Recuse_Review": {
+    "title": "Accept - Recuse Review",
+    "display": "hidden"
+  },
+  "Edit_Review(s)_Based_on_Revised_Submission": {
+    "title": "Edit Review(s) Based on Revised Submission",
+    "display": "hidden"
+  },
+  "Impexium_Log_In": {
+    "title": "Impexium Log In",
+    "display": "hidden"
+  },
+  "Log_Out": {
+    "title": "Log Out",
+    "display": "hidden"
+  },
+  "Register": {
+    "title": "Register",
+    "display": "hidden"
+  },
+  "Reviewer_Fields_Defined": {
+    "title": "Reviewer Fields Defined",
+    "display": "hidden"
+  },
+  "Set_Review_Availability": {
+    "title": "Set Review Availability",
+    "display": "hidden"
+  },
+  "Traditional_Log_In": {
+    "title": "Traditional Log In",
+    "display": "hidden"
+  },
+  "Unsubscribe_From_Emails": {
+    "title": "Unsubscribe From Emails",
+    "display": "hidden"
+  },
+  "View_a_Shared_Review": {
+    "title": "View a Shared Review",
+    "display": "hidden"
+  }
+}

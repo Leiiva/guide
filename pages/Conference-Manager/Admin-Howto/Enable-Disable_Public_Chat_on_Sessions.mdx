@@ -1,0 +1,49 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Enable/Disable Public Chat on Sessions</ClickableTitle>
+
+
+
+
+As an Administrator, you can enable or disable the chat function for attendees on sessions. 
+
+
+1. Go to the desired event 
+
+
+2. From the left panel, click **Conference**
+
+
+**![mceclip0.png](../../../resources/article-images/12801868581779-Enable-Disable-Public-Chat-on-Sessions_1.png)**
+
+
+3. Scroll down to locate the **Chat** section
+
+
+4. From here, you can toggle ON/OFF **Session Chat for attendees enabled**
+
+
+**![mceclip1.png](../../../resources/article-images/12801868581779-Enable-Disable-Public-Chat-on-Sessions_2.png)**
+
+
+5. Click **Save Event** 
+
+
+![mceclip2.png](../../../resources/article-images/12801868581779-Enable-Disable-Public-Chat-on-Sessions_3.png)
+
+
+

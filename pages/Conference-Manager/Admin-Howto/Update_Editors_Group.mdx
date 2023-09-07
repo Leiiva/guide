@@ -1,0 +1,45 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Update Editors Group</ClickableTitle>
+
+
+
+
+1. Go to **Events**, and click the desired event tile 
+
+
+2. From the left panel, click **Editors**
+
+
+3. Click the **Edit Group** button on the top 
+
+
+4. Here, you can complete the following actions: 
+
+
+* Rename Group
+* Change permissions by unchecking - checking specific fields
+* Delete group if no longer needed
+
+
+![mceclip1.png](../../../resources/article-images/12916854326547-Update-Editors-Group_1.png)
+
+
+5. Click **Save Groups** 
+
+
+

@@ -1,0 +1,52 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Set the Time Zone</ClickableTitle>
+
+
+
+
+1. From the Home page select **Events** from the tile or from the left pane
+
+
+![mceclip1.png](../../../resources/article-images/4413828067603-Set-the-Time-Zone_1.png)
+
+
+2. Select the desired event
+
+
+3. Select **General** 
+
+
+![mceclip3.png](../../../resources/article-images/4413828067603-Set-the-Time-Zone_2.png)
+
+
+4. Select the desired **Time zone**
+
+
+**![mceclip0.png](../../../resources/article-images/4413828067603-Set-the-Time-Zone_3.png)**
+
+
+5. Scroll down to select **SAVE** to complete changes
+
+
+![mceclip0.png](../../../resources/article-images/4413828067603-Set-the-Time-Zone_4.png)
+
+
+Please note, if the event is onsite please use the time zone of the venue.
+
+
+

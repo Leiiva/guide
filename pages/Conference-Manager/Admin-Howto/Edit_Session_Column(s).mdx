@@ -1,0 +1,48 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Edit Session Column(s)</ClickableTitle>
+
+
+
+
+1. From the desired event navigate to **Sessions**
+
+
+![mceclip0.png](../../../resources/article-images/4494333843475-Edit-Session-Column-s_1.png)
+
+
+2. Select the **Edit Columns** icon
+
+
+![mceclip0.png](../../../resources/article-images/4494333843475-Edit-Session-Column-s_2.png)
+
+
+3. In the **Edit Columns** modal you will be able to complete the following:
+
+
+* Search and filter by fields
+* Select what columns will be displayed in the table by selecting the blue checkmark in the Columns
+* In the Selected Columns you can drag and drop to arrange order
+
+
+4. Select **APPLY** to save changes
+
+
+![mceclip1.png](../../../resources/article-images/4494333843475-Edit-Session-Column-s_3.png)
+
+
+

@@ -1,0 +1,52 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Set Date(s)</ClickableTitle>
+
+
+
+
+1. From the Home page select **Events** from the tile or from the left pane
+
+
+![mceclip1.png](../../../resources/article-images/4413823720339-Set-Date-s_1.png)
+
+
+2. Select the desired event
+
+
+3. Select **General** 
+
+
+![mceclip3.png](../../../resources/article-images/4413823720339-Set-Date-s_2.png)
+
+
+4. Below the event description set the Start and End Date by clicking/tapping in the **Start Date** to select the desired start date 
+
+
+![mceclip0.png](../../../resources/article-images/4413823720339-Set-Date-s_3.png)
+
+
+5. Follow step 4 for selecting desired **End Date**
+
+
+6. Select **SAVE** to complete changes
+
+
+![mceclip1.png](../../../resources/article-images/4413823720339-Set-Date-s_4.png)
+
+
+

@@ -1,0 +1,49 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Enable/Disable Backstage Chat</ClickableTitle>
+
+
+
+
+You can communicate via chat with the event speakers, by enabling or disabling Backstage Chat 
+
+
+1. Go to the desired event 
+
+
+2. From the left panel, click **Conference**
+
+
+**![mceclip0.png](../../../resources/article-images/12802127125139-Enable-Disable-Backstage-Chat_1.png)**
+
+
+3. Scroll down to locate the **Chat** section 
+
+
+4. From here, you can toggle ON/OFF **Backstage Chat with Speakers**
+
+
+**![mceclip1.png](../../../resources/article-images/12802127125139-Enable-Disable-Backstage-Chat_2.png)**
+
+
+5. Click **Save Event**
+
+
+**![mceclip2.png](../../../resources/article-images/12802127125139-Enable-Disable-Backstage-Chat_3.png)**
+
+
+

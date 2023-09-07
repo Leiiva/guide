@@ -1,0 +1,346 @@
+{
+  "Add_a_Description": {
+    "title": "Add a Description",
+    "display": "hidden"
+  },
+  "Add_a_Virtual_Component_to_a_Session": {
+    "title": "Add a Virtual Component to a Session",
+    "display": "hidden"
+  },
+  "Add_Platform_Branding": {
+    "title": "Add Platform Branding",
+    "display": "hidden"
+  },
+  "Add_Polls_and_Q&A_to_your_Event_and_Sessions": {
+    "title": "Add Polls and Q&A to your Event and Sessions",
+    "display": "hidden"
+  },
+  "Add_Support_Email": {
+    "title": "Add Support Email",
+    "display": "hidden"
+  },
+  "Assign-Remove_Editors_Group_to_a_User": {
+    "title": "Assign-Remove Editors Group to a User",
+    "display": "hidden"
+  },
+  "Assign_Speaker_to_Session": {
+    "title": "Assign Speaker to Session",
+    "display": "hidden"
+  },
+  "Assign_Your_Speaker_as_Zoom_Host": {
+    "title": "Assign Your Speaker as Zoom Host",
+    "display": "hidden"
+  },
+  "Bulk_Email_Attendees": {
+    "title": "Bulk Email Attendees",
+    "display": "hidden"
+  },
+  "Bulk_email_Speakers": {
+    "title": "Bulk email Speakers",
+    "display": "hidden"
+  },
+  "Bulk_Send_Invitations_to_Speakers": {
+    "title": "Bulk Send Invitations to Speakers",
+    "display": "hidden"
+  },
+  "Calendar_View": {
+    "title": "Calendar View",
+    "display": "hidden"
+  },
+  "Change_Status": {
+    "title": "Change Status",
+    "display": "hidden"
+  },
+  "Configure_Attendance_of_Sessions_-_Optional": {
+    "title": "Configure Attendance of Sessions - Optional",
+    "display": "hidden"
+  },
+  "Configure_Events_Module_Communications": {
+    "title": "Configure Events Module Communications",
+    "display": "hidden"
+  },
+  "Copy_Event": {
+    "title": "Copy Event",
+    "display": "hidden"
+  },
+  "Create_and_Customize_Page(s)": {
+    "title": "Create and Customize Page(s)",
+    "display": "hidden"
+  },
+  "Create_a_Session": {
+    "title": "Create a Session",
+    "display": "hidden"
+  },
+  "Create_a_Title_and_Sub_Title": {
+    "title": "Create a Title and Sub Title",
+    "display": "hidden"
+  },
+  "Create_Company": {
+    "title": "Create Company",
+    "display": "hidden"
+  },
+  "Create_Custom_Fields": {
+    "title": "Create Custom Fields",
+    "display": "hidden"
+  },
+  "Create_Session_Categories": {
+    "title": "Create Session Categories",
+    "display": "hidden"
+  },
+  "Customize_Navigation_Bar": {
+    "title": "Customize Navigation Bar",
+    "display": "hidden"
+  },
+  "Customize_Profile_Fields_Conference": {
+    "title": "Customize Profile Fields Conference",
+    "display": "hidden"
+  },
+  "Defining_Conference_Speaker_Types-Roles": {
+    "title": "Defining Conference Speaker Types-Roles",
+    "display": "hidden"
+  },
+  "Delete_an_Event": {
+    "title": "Delete an Event",
+    "display": "hidden"
+  },
+  "Delete_Event_Integration": {
+    "title": "Delete Event Integration",
+    "display": "hidden"
+  },
+  "Delete_Page": {
+    "title": "Delete Page",
+    "display": "hidden"
+  },
+  "Editors_Groups": {
+    "title": "Editors Groups",
+    "display": "hidden"
+  },
+  "Edit_Session_Column(s)": {
+    "title": "Edit Session Column(s)",
+    "display": "hidden"
+  },
+  "Edit_Session_Details": {
+    "title": "Edit Session Details",
+    "display": "hidden"
+  },
+  "Embedding_Session_Schedule_and_Speakers_with_Unique_Direct_Links": {
+    "title": "Embedding Session Schedule and Speakers with Unique Direct Links",
+    "display": "hidden"
+  },
+  "Enable-Disable_Backstage_Chat": {
+    "title": "Enable-Disable Backstage Chat",
+    "display": "hidden"
+  },
+  "Enable-Disable_Public_Chat_on_Sessions": {
+    "title": "Enable-Disable Public Chat on Sessions",
+    "display": "hidden"
+  },
+  "Enable-_Disable_Registration": {
+    "title": "Enable- Disable Registration",
+    "display": "hidden"
+  },
+  "Enable-_disable_Session_Enrolling": {
+    "title": "Enable- disable Session Enrolling",
+    "display": "hidden"
+  },
+  "Enable_a_Survey_For_Your_Sessions": {
+    "title": "Enable a Survey For Your Sessions",
+    "display": "hidden"
+  },
+  "Enable_Conflict_Detection": {
+    "title": "Enable Conflict Detection",
+    "display": "hidden"
+  },
+  "Events_Module_Branding_–_Marketing": {
+    "title": "Events Module Branding – Marketing",
+    "display": "hidden"
+  },
+  "Events_Module_Branding_–_Web_Application": {
+    "title": "Events Module Branding – Web Application",
+    "display": "hidden"
+  },
+  "Event_Backstage_Communication": {
+    "title": "Event Backstage Communication",
+    "display": "hidden"
+  },
+  "Event_Calendar_Hidden_Functions": {
+    "title": "Event Calendar Hidden Functions",
+    "display": "hidden"
+  },
+  "Event_Companies_Sponsorship": {
+    "title": "Event Companies Sponsorship",
+    "display": "hidden"
+  },
+  "Event_Logistics_Configuration": {
+    "title": "Event Logistics Configuration",
+    "display": "hidden"
+  },
+  "Event__Integration": {
+    "title": "Event  Integration",
+    "display": "hidden"
+  },
+  "Exhibitor_and_Sponsors_settings": {
+    "title": "Exhibitor and Sponsors settings",
+    "display": "hidden"
+  },
+  "Export_Attendees_List": {
+    "title": "Export Attendees List",
+    "display": "hidden"
+  },
+  "Export_Session(s)": {
+    "title": "Export Session(s)",
+    "display": "hidden"
+  },
+  "Export_Speaker's_Data": {
+    "title": "Export Speaker's Data",
+    "display": "hidden"
+  },
+  "Export__Participant_Book": {
+    "title": "Export  Participant Book",
+    "display": "hidden"
+  },
+  "Export__Program_Index": {
+    "title": "Export  Program Index",
+    "display": "hidden"
+  },
+  "Export__Sessions_to_CSV": {
+    "title": "Export  Sessions to CSV",
+    "display": "hidden"
+  },
+  "Export__Session_Book": {
+    "title": "Export  Session Book",
+    "display": "hidden"
+  },
+  "Export__Session_Enrollment": {
+    "title": "Export  Session Enrollment",
+    "display": "hidden"
+  },
+  "Filter_Session(s)": {
+    "title": "Filter Session(s)",
+    "display": "hidden"
+  },
+  "Hide_Session(s)": {
+    "title": "Hide Session(s)",
+    "display": "hidden"
+  },
+  "How_to_edit_access_rule_for_specific_sessions": {
+    "title": "How to edit access rule for specific sessions",
+    "display": "hidden"
+  },
+  "Import_Companies_in_Bulk_via_CSV": {
+    "title": "Import Companies in Bulk via CSV",
+    "display": "hidden"
+  },
+  "Import_Company_from_another_Event": {
+    "title": "Import Company from another Event",
+    "display": "hidden"
+  },
+  "Import_Sessions_from_CSV": {
+    "title": "Import Sessions from CSV",
+    "display": "hidden"
+  },
+  "Import_Submission(s)_as_Session(s)": {
+    "title": "Import Submission(s) as Session(s)",
+    "display": "hidden"
+  },
+  "Label_Event_Category": {
+    "title": "Label Event Category",
+    "display": "hidden"
+  },
+  "Link_submissions_as_sub-sessions_on_an_event_session": {
+    "title": "Link submissions as sub-sessions on an event session",
+    "display": "hidden"
+  },
+  "Logistics_Alerts": {
+    "title": "Logistics Alerts",
+    "display": "hidden"
+  },
+  "Manage_Speaker'_Profile": {
+    "title": "Manage Speaker' Profile",
+    "display": "hidden"
+  },
+  "Override_Session_Attendance": {
+    "title": "Override Session Attendance",
+    "display": "hidden"
+  },
+  "Plan_for_Networking": {
+    "title": "Plan for Networking",
+    "display": "hidden"
+  },
+  "Public_Site_Branding_and_CSS": {
+    "title": "Public Site Branding and CSS",
+    "display": "hidden"
+  },
+  "Quick_Search_Session(s)": {
+    "title": "Quick Search Session(s)",
+    "display": "hidden"
+  },
+  "Refresh_Remote_User_Data_for_Speakers": {
+    "title": "Refresh Remote User Data for Speakers",
+    "display": "hidden"
+  },
+  "Registration_Profile_Configuration": {
+    "title": "Registration Profile Configuration",
+    "display": "hidden"
+  },
+  "Rename_Poster_Sessions": {
+    "title": "Rename Poster Sessions",
+    "display": "hidden"
+  },
+  "Reset_Logistics_for_Event": {
+    "title": "Reset Logistics for Event",
+    "display": "hidden"
+  },
+  "Session_Display_for_Attendees_&_Speakers": {
+    "title": "Session Display for Attendees & Speakers",
+    "display": "hidden"
+  },
+  "Session_Name_Generator": {
+    "title": "Session Name Generator",
+    "display": "hidden"
+  },
+  "Session_Survey_Setup_using_URL_Parameters": {
+    "title": "Session Survey Setup using URL Parameters",
+    "display": "hidden"
+  },
+  "Set_Date(s)": {
+    "title": "Set Date(s)",
+    "display": "hidden"
+  },
+  "Set_Registration_Tickets": {
+    "title": "Set Registration Tickets",
+    "display": "hidden"
+  },
+  "Set_Reporting_Configuration": {
+    "title": "Set Reporting Configuration",
+    "display": "hidden"
+  },
+  "Set_Session_Access": {
+    "title": "Set Session Access",
+    "display": "hidden"
+  },
+  "Set_the_Time_Zone": {
+    "title": "Set the Time Zone",
+    "display": "hidden"
+  },
+  "Speaker's_Check-in_-_Registration_Status": {
+    "title": "Speaker's Check-in - Registration Status",
+    "display": "hidden"
+  },
+  "Specify_What_Speakers_Can_Modify_in_Their_Sessions": {
+    "title": "Specify What Speakers Can Modify in Their Sessions",
+    "display": "hidden"
+  },
+  "Update_Editors_Group": {
+    "title": "Update Editors Group",
+    "display": "hidden"
+  },
+  "Webhook_Integration_with_Slayte-Impexium_for_Events": {
+    "title": "Webhook Integration with Slayte-Impexium for Events",
+    "display": "hidden"
+  },
+  "Zoom_Integration": {
+    "title": "Zoom Integration",
+    "display": "hidden"
+  }
+}

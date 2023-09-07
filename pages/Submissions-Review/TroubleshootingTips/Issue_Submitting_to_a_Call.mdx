@@ -1,0 +1,39 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Issue Submitting to a Call</ClickableTitle>
+
+
+
+
+As a safe option we recommend first attempting to access the site using **Google Chrome**. In the scenario where you receive an error message when attempting to submit, we recommend following these steps:
+
+
+1. Ensure you are attempting to submit within any Call **deadlines**
+2. Ensure you have **filled all required fields** on the Call Form
+3. Ensure all text input Fields take into account any **minimum/maximum restrictions** added for characters/words.
+
+
+If you continue to face an error message after completing these checks, please send below information to [support@slayte.com](https://docs-for-customers.slayte.com/hc/en-us/articles/support@slayte.com):
+
+
+* Which browser type are you using?
+* Which operating system are you using?
+* How did you get to the site you see the issue on (could you send us a link)?
+* Is there a specific action that causes the error message?
+* Could you possibly include a screenshot of this error message?
+
+

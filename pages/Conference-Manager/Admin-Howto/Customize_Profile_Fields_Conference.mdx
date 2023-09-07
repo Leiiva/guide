@@ -1,0 +1,40 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Customize Profile Fields Conference</ClickableTitle>
+
+
+
+
+1. Navigate to Events > *Desired Event* > **Conference**
+
+
+![mceclip0.png](../../../resources/article-images/5276544702611-Customize-Profile-Fields-Conference_1.png)
+
+
+2. Scroll down to the section **People** then click inside the **drop down menu** to select the previously created profile field(s) to be publicly visible on a persons profile
+
+
+![mceclip1.png](../../../resources/article-images/5276544702611-Customize-Profile-Fields-Conference_2.png)
+
+
+3. Select **SAVE EVENT** when finished making desired changes
+
+
+![mceclip2.png](../../../resources/article-images/5276544702611-Customize-Profile-Fields-Conference_3.png)
+
+
+

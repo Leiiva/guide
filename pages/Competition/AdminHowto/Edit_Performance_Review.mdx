@@ -1,0 +1,56 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Edit Performance Review</ClickableTitle>
+
+
+
+
+1. Go to **Competitions**, click **View** for the desired Competition  
+2. On the **Performances** Tab, locate the Group holding the performance and click **View**. In case of Performances Group is disabled, you will be displayed the list of performances instead.
+
+
+3. From the performance list, click **View** to the performance to update
+
+
+![mceclip0.png](../../../resources/article-images/13981665140499-Edit-Performance-Review_1.png)
+
+
+4. In the **Reviews section**, click the **Edit** button
+
+
+![mceclip1.png](../../../resources/article-images/13981665140499-Edit-Performance-Review_2.png)
+
+
+5. Update all applicable review fields, then click **Preview** at the bottom for a preview of the changes
+
+
+![mceclip2.png](../../../resources/article-images/13981665140499-Edit-Performance-Review_3.png)
+
+
+6. When ready, click **Update**
+
+
+![mceclip3.png](../../../resources/article-images/13981665140499-Edit-Performance-Review_4.png)
+
+
+7. You will get the following confirmation message 
+
+
+![mceclip2.png](../../../resources/article-images/13981665140499-Edit-Performance-Review_5.png)
+
+
+

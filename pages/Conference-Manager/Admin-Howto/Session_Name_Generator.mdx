@@ -1,0 +1,78 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Session Name Generator</ClickableTitle>
+
+
+
+
+Session Name Generator is a feature that allows the administrator to name their session automatically based on a running number, or different criteria, such as a denominator, fragments of the title, and weekday.
+
+
+A unique string code will be generated, which can be used to give session codes to Impexium when using the Remote: Export functionality. Impexium session codes are unique through the platform and thus the same code cannot be reused.
+
+
+ 
+
+
+You can access this feature by following these steps:
+
+
+1. Navigate to **Events** and click on **General**.
+2. Locate **Session Name Generator**. The following options will be visible:
+	* Running Number: A running number name will be given to each session.
+	* Formular: Use [**JSON Logic**](https://jsonlogic.com/) to create a custom unique value. Click the **Edit Formular** button to open the editor.
+
+
+ 
+
+
+### Formular Name Generator Sample
+
+
+
+```
+{  
+"upperCase": [  
+{  
+"cat": [  
+"EVENT2022-",  
+{  
+"substr": [{ "var": "title" }, 0, 3]  
+},  
+"-",  
+{  
+"weekDay": [{ "var": "dateBegin" }]  
+}  
+]  
+}  
+]  
+}
+```
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+

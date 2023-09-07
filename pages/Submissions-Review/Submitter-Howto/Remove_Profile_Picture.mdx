@@ -1,0 +1,58 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Remove Profile Picture</ClickableTitle>
+
+
+
+
+1. Select **your name** in the upper right corner
+
+
+![mceclip0.png](../../../resources/article-images/4412302455059-Remove-Profile-Picture_1.png)
+
+
+2. Select **Settings**
+
+
+![mceclip1.png](../../../resources/article-images/4412302455059-Remove-Profile-Picture_2.png)
+
+
+3. Select **Remove profile picture**
+
+
+![mceclip0.png](../../../resources/article-images/4412302455059-Remove-Profile-Picture_3.png)
+
+
+4. You will be notified Successfully deleted profile image
+
+
+![mceclip1.png](../../../resources/article-images/4412302455059-Remove-Profile-Picture_4.png)
+
+
+5. Your picture will be removed
+
+
+![mceclip2.png](../../../resources/article-images/4412302455059-Remove-Profile-Picture_5.png)
+
+
+6. Select **SAVE** to complete change(s)
+
+
+![mceclip3.png](../../../resources/article-images/4412302455059-Remove-Profile-Picture_6.png)
+
+
+

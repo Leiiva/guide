@@ -1,0 +1,135 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Form Builder Field Options</ClickableTitle>
+
+
+
+
+## Separators
+
+
+**Horizontal Separator Line** Visually separate content into above and below the line.
+
+
+**Page Break** This allows you to spread content over multiple pages that can be navigated through by using Next/Previous buttons. This is useful for organizing Forms into sections and avoiding too much information on a single page.
+
+
+## Form Elements
+
+
+**Text Field** Allow the user enter a single line of text. 
+
+
+**Text Area** Allow users to add sections of text.
+
+
+**Dropdown** Use a dropdown to let the user select a single value from a list of provided options. You can either add dropdown options individually by clicking *Add Option*, or you could add a predefined list of options from a file by clicking *Add Options From File*.
+
+
+**Select** From a dropdown allows the selection of multiple choices.
+
+
+**Selection (Multiple)** Allow users to select more than one option from a list, with all options being visibly listed. Options can be added individually by clicking *Add Option*, or you could add a predefined list of options from a file by clicking *Add Options From File*.
+
+
+**Yes/No** This provides the users with the specific options of Yes or No.
+
+
+**Selection (Single)** Allow users to select a single option with all options being visibly listed. Options can be added individually by clicking *Add Option*, or you could add a predefined list of options from a file by clicking *Add Options From File*.
+
+
+**Slider** This field provides users with a range of values to select from using a slider. You can input a min/max value for the range of values you would like users to choose from.
+
+
+**Date of Birth** This field allows users to select their date of birth (YYYY/MM/DD).
+
+
+**Date Picker** The Date-Entry allows the user to select a date.
+
+
+**Date Time Picker** Allows the user to select a date and time.
+
+
+**Date Range** Allows the user to select a start and end date.
+
+
+**Attachment** Allows users to upload new or add to existing documents as attachments to their submission. You can select the type(s) of attachment format you would like to accept from the following:
+
+
+* Animations
+* Audios
+* Images
+* Microsoft Excel Documents
+* Microsoft Word Documents
+* PDFs
+* Presentations
+* Videos
+
+
+**Media Link** Allows users to attach videos to their submission using direct links from video streaming platforms. These videos will directly render on their submission. This field can be set to restrict links to specific video streaming services such as YouTube and Vimeo.
+
+
+**Autocomplete** Allows the user to type their entry, suggestions to complete their answers will appear based on a list of predefined entries you have previously provided.
+
+
+**User Computer Information** Use this input field to capture additional data such as:
+
+
+* IP Address
+* Geographic Location
+* Browser Information
+* Screen Resolution
+* Operating System
+
+
+**User Search** This field allows searching and selecting other users from the database that can be tagged as co-authors. Additional options include:
+
+
+* Allows users to find other uses by searching with email addresses
+* Allow selecting multiple users
+* Restrict the search of users to a specific group
+* Allow users to add non-existent users
+
+
+**Impexium Profile Information** Select a field to capture from the submitter’s Impexium profile, such as but not limited to company information, committee.
+
+
+**Impexium User Search** Search for users with certain details in Impexium from your Impexium database.
+
+
+**Parameter** Allows obtaining additional input-parameters that were passed in e.g. as a URL parameter.
+
+
+**Additional Form** Please click [**here**](https://docs-for-customers.slayte.com/hc/en-us/articles/4412134721043) for more information and the how-to guide.
+
+
+## Additional Elements
+
+
+**Random 5 Digit Number** This sets a field in the submission to a random 5-digit number
+
+
+## Static Elements
+
+
+**Static Text** Here you can add text that will be visible to the submitter in the position added. 
+
+
+**Attachment Static** This allows you to upload a file that will remain fixed to this area. Most formats can be uploaded from your device, or you could directly capture and image by clicking the camera option.
+
+
+

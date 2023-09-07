@@ -1,0 +1,37 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Roles in Slayte</ClickableTitle>
+
+
+
+
+**Super Admin**: Super admins have the highest permissions within the Slayte app. They have the ability to grant other users Administrator permissions, manage the Subscription Plan, create Calls, Events, Competitions, Grant Applications and much more. Super admin can also manage the site layout, add custom branding, modify communication settings and create custom company policies.
+
+
+**Call Admin**: Call Admins are able to create Calls, manage Submissions, assign Reviews, generate Reports and accept/reject Submissions.
+
+
+**Submitter**: Submitters are able to submit pieces of content into Calls, print and export their Submissions and withdraw their Submissions if Administrators have enabled this option.
+
+
+**Reviewer**: Reviewers are the users who will be assigned to provide ratings on Submissions collected, so these can be accepted/rejected.
+
+
+ 
+
+
+

@@ -1,0 +1,48 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Delete a Performance Group</ClickableTitle>
+
+
+
+
+1. Go to **Competitions**, and click the desired **Competition**
+
+
+2. From the **Performances Tab**, locate the Group to delete and click **View**
+
+
+![mceclip0.png](../../../resources/article-images/14005717009427-Delete-a-Performance-Group_1.png)   
+3. Click **Settings**
+
+
+![mceclip1.png](../../../resources/article-images/14005717009427-Delete-a-Performance-Group_2.png)   
+4. Scroll down to the **Delete this performance group** section, and click **Delete Performance Group**
+
+
+**![mceclip2.png](../../../resources/article-images/14005717009427-Delete-a-Performance-Group_3.png)**
+
+
+5. From the pop-up confirmation window, click **Delete** 
+
+
+![mceclip3.png](../../../resources/article-images/14005717009427-Delete-a-Performance-Group_4.png)
+
+
+**Note:** Any performances under the group, will be automatically allocated to the prior group from the list and won't be deleted along with the group. You can then move these performances as needed by following the steps listed here 
+
+
+

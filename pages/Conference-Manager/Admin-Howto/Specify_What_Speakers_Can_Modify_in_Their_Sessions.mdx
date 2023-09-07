@@ -1,0 +1,49 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Specify What Speakers Can Modify in Their Sessions</ClickableTitle>
+
+
+
+
+1. Navigate to Conference
+
+
+![mceclip1.png](../../../resources/article-images/4494215100947-Specify-What-Speakers-Can-Modify-in-Their-Sessions_1.png)
+
+
+2. **Slide toggle** from Only admins can edit sessions to Speakers can edit their sessions
+
+
+![mceclip2.png](../../../resources/article-images/4494215100947-Specify-What-Speakers-Can-Modify-in-Their-Sessions_2.png)
+
+
+3. Click inside **Session fields a speaker can edit** to select what Speakers can edit on their sessions, and use the drop-down to select the desired fields. 
+
+
+![mceclip0.png](../../../resources/article-images/4494215100947-Specify-What-Speakers-Can-Modify-in-Their-Sessions_3.png)
+
+
+4. Select **SAVE EVENT** when finished
+
+
+![mceclip3.png](../../../resources/article-images/4494215100947-Specify-What-Speakers-Can-Modify-in-Their-Sessions_4.png)
+
+
+ 
+
+
+

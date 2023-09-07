@@ -1,30 +1,19 @@
-import React from 'react';
-import { shareArticle } from './share';
-import { FaLink } from 'react-icons/fa';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
-export const ClickableTitle = ({ children }) => {
-  return (
-    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
-      {children} <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
-    </h1>
-  );
-};
-
-<ToastContainer />
-
-<ClickableTitle>Introduction</ClickableTitle>
-
+# Introduction
  
-Test test
+Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
 
-## What is Slayte
-
-Hello
+## What is Nextra?
 
 A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
 
 ## Documentation
 
 The documentation is available at [https://nextra.site](https://nextra.site).
+
+Hello, world!
+Below is an example of markdown in JSX.
+
+<div style={{padding: '1rem', backgroundColor: 'cyan'}}>
+  Try and change the background color to `tomato`.
+</div>
+

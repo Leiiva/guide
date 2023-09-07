@@ -1,0 +1,86 @@
+{
+  "Bulk_Assign-Unassigned_Judges": {
+    "title": "Bulk Assign-Unassigned Judges",
+    "display": "hidden"
+  },
+  "Bulk_email_to_Participants": {
+    "title": "Bulk email to Participants",
+    "display": "hidden"
+  },
+  "Bulk_Move_Performances_to_Another_Group": {
+    "title": "Bulk Move Performances to Another Group",
+    "display": "hidden"
+  },
+  "Create_a_Competition": {
+    "title": "Create a Competition",
+    "display": "hidden"
+  },
+  "Delete_a_Competition": {
+    "title": "Delete a Competition",
+    "display": "hidden"
+  },
+  "Delete_a_Performance_Group": {
+    "title": "Delete a Performance Group",
+    "display": "hidden"
+  },
+  "Edit_a_Performance_Application": {
+    "title": "Edit a Performance Application",
+    "display": "hidden"
+  },
+  "Edit_Performance_Review": {
+    "title": "Edit Performance Review",
+    "display": "hidden"
+  },
+  "Export_Closely_Scheduled_Competitors": {
+    "title": "Export Closely Scheduled Competitors",
+    "display": "hidden"
+  },
+  "Export_Competitions_Reviews": {
+    "title": "Export Competitions Reviews",
+    "display": "hidden"
+  },
+  "Export_Competition_Winners": {
+    "title": "Export Competition Winners",
+    "display": "hidden"
+  },
+  "Export_Competitors": {
+    "title": "Export Competitors",
+    "display": "hidden"
+  },
+  "Filter_Competitions": {
+    "title": "Filter Competitions",
+    "display": "hidden"
+  },
+  "How_to_Close_a_Competition": {
+    "title": "How to Close a Competition",
+    "display": "hidden"
+  },
+  "How_to_Copy_a_Competition": {
+    "title": "How to Copy a Competition",
+    "display": "hidden"
+  },
+  "How_to_Sort_Performances": {
+    "title": "How to Sort Performances",
+    "display": "hidden"
+  },
+  "How_to_Switch_Between_Competition_Views__Admin,_Judge,_Applicant": {
+    "title": "How to Switch Between Competition Views  Admin, Judge, Applicant",
+    "display": "hidden"
+  },
+  "Re-assign_Performances": {
+    "title": "Re-assign Performances",
+    "display": "hidden"
+  },
+  "Recalculate_Reviews": {
+    "title": "Recalculate Reviews",
+    "display": "hidden"
+  },
+  "Switch_Between_Performances_Groups": {
+    "title": "Switch Between Performances Groups",
+    "display": "hidden"
+  },
+  "Withdraw_a_Performance": {
+    "title": "Withdraw a Performance",
+    "display": "hidden"
+  }
+}

@@ -1,0 +1,49 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Edit a Submission</ClickableTitle>
+
+
+
+
+1. From the home screen navigate to the **Submissions page**
+
+
+![mceclip0.png](../../../resources/article-images/4412149700627-Edit-a-Submission_1.png)
+
+
+2. Select the **desired submission**
+
+
+![mceclip2.png](../../../resources/article-images/4412149700627-Edit-a-Submission_2.png)
+
+
+3. From the Actions section, click Revise/Edit 
+
+
+![mceclip0.png](../../../resources/article-images/4412149700627-Edit-a-Submission_3.png)
+
+
+4. Select **Save** after making necessary changes
+
+
+![mceclip1.png](../../../resources/article-images/4412149700627-Edit-a-Submission_4.png)
+
+
+**/*Note:** The ability to make one round of changes to your Submission must be enabled by your Call Administrator. If you do not see the option to **Edit** your Submission contact your Call Administrator directly.
+
+
+

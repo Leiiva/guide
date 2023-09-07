@@ -1,0 +1,64 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Review Settings</ClickableTitle>
+
+
+
+
+Reviews of submissions are conducted according to two important settings: Reviewer Allocation (how are submissions assigned to reviewers) and Review Privacy (how much information is shared between reviewers/submitters).
+
+
+## **Reviewer Allocation**
+
+
+A submission can only be reviewed by a reviewer, and reviewers can only review submissions that are assigned to them.
+
+
+**Manual** Manually assigning submissions is tedious, however sometimes required if many rules determine who can review what.
+
+
+**Automatic: Random** Each submission is randomly assigned to a member of the "Reviewer Group" that was set on the "Review Phase" that is currently active. Read more about phases /_here/_.
+
+
+**Automatic: Queue** Each reviewer in the "Reviewer Group" has a number of submissions awaiting their review. To balance out over-utilization of some reviewers, and to give reviewers with more availability higher volume, submissions can automatically be assigned to the member in the group of reviewers that has the least number of outstanding submissions to be reviewed.
+
+
+**Automatic: Smart** BETA - Based on observed reviewer behavior we can forecast the expected time when the review will be completed by a reviewer. Utilizing this, this setting will assign the submission to the reviewer who is expected to review this submission the earliest.
+
+
+Please note, a submission can only be reviewed by a reviewer, and reviewers can only review submissions that are assigned to them.
+
+
+## **Review Privacy**
+
+
+Oftentimes, to avoid bias, identity or certain information about the submitter should not be revealed to reviewers.
+
+
+**Collaboration** Reviewers can see the author of a submission. Submission authors see their assigned reviewer.
+
+
+**Blind Review** Reviewers cannot see the author of a submission. Submission authors cannot see their assigned reviewer. Reviewers can see other reviews.
+
+
+**Anonymous** Like blind review, but reviewers cannot see other reviews.
+
+
+ 
+
+
+

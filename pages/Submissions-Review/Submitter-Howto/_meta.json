@@ -1,0 +1,98 @@
+{
+  "Accept_-_Decline_Co-Author_invite": {
+    "title": "Accept - Decline Co-Author invite",
+    "display": "hidden"
+  },
+  "Additional_Profile_Information": {
+    "title": "Additional Profile Information",
+    "display": "hidden"
+  },
+  "Add_Co-Author(s)": {
+    "title": "Add Co-Author(s)",
+    "display": "hidden"
+  },
+  "Edit_a_Submission": {
+    "title": "Edit a Submission",
+    "display": "hidden"
+  },
+  "Forgot_Username-Password": {
+    "title": "Forgot Username-Password",
+    "display": "hidden"
+  },
+  "How_to_access_your_Submission_Review": {
+    "title": "How to access your Submission Review",
+    "display": "hidden"
+  },
+  "How_to_use_Submission_Library": {
+    "title": "How to use Submission Library",
+    "display": "hidden"
+  },
+  "Impexium_Log_In": {
+    "title": "Impexium Log In",
+    "display": "hidden"
+  },
+  "Log_Out": {
+    "title": "Log Out",
+    "display": "hidden"
+  },
+  "Print_a_Submission": {
+    "title": "Print a Submission",
+    "display": "hidden"
+  },
+  "Register": {
+    "title": "Register",
+    "display": "hidden"
+  },
+  "Remove_Profile_Picture": {
+    "title": "Remove Profile Picture",
+    "display": "hidden"
+  },
+  "Request_Copy_of_Account_Data": {
+    "title": "Request Copy of Account Data",
+    "display": "hidden"
+  },
+  "Request_to_Delete_Account": {
+    "title": "Request to Delete Account",
+    "display": "hidden"
+  },
+  "Save_a_Submission_Draft": {
+    "title": "Save a Submission Draft",
+    "display": "hidden"
+  },
+  "Start_a_Chat_on_a_Submission": {
+    "title": "Start a Chat on a Submission",
+    "display": "hidden"
+  },
+  "Submit_to_Additional_Phase(s)": {
+    "title": "Submit to Additional Phase(s)",
+    "display": "hidden"
+  },
+  "Submit_to_a_Call": {
+    "title": "Submit to a Call",
+    "display": "hidden"
+  },
+  "Traditional_Log_In": {
+    "title": "Traditional Log In",
+    "display": "hidden"
+  },
+  "Update_Your_Profile": {
+    "title": "Update Your Profile",
+    "display": "hidden"
+  },
+  "View_Submission(s)": {
+    "title": "View Submission(s)",
+    "display": "hidden"
+  },
+  "View_Submission_Progress": {
+    "title": "View Submission Progress",
+    "display": "hidden"
+  },
+  "Vote_for_a_Submission": {
+    "title": "Vote for a Submission",
+    "display": "hidden"
+  },
+  "Withdraw_a_Submission": {
+    "title": "Withdraw a Submission",
+    "display": "hidden"
+  }
+}

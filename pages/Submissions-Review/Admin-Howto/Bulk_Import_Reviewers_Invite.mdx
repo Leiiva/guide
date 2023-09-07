@@ -1,0 +1,58 @@
+
+import React from 'react';
+import { shareArticle } from '../../share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Bulk Import Reviewers Invite</ClickableTitle>
+
+
+
+
+1. From the desired call, click the **Reviewers** tab from the top bar 
+
+
+2. Click **Add Reviewer(s)**
+
+
+3. From the Invite Reviewer window, click **Bulk Import**
+
+
+![mceclip0.png](../../../resources/article-images/13620936206611-Bulk-Import-Reviewers-Invite_1.png)
+
+
+4. Click to select a file or drag the file in the **Upload e-mail list** section. The CSV file needs to have the columns "name" and "email" and all email addresses are valid.
+
+
+![mceclip1.png](../../../resources/article-images/13620936206611-Bulk-Import-Reviewers-Invite_2.png)
+
+
+5. Once successfully uploaded, a preview of the reviewer's details will show. Click **Invite** to continue 
+
+
+![mceclip2.png](../../../resources/article-images/13620936206611-Bulk-Import-Reviewers-Invite_3.png)
+
+
+6. You will receive the following confirmation 
+
+
+![mceclip3.png](../../../resources/article-images/13620936206611-Bulk-Import-Reviewers-Invite_4.png)
+
+
+Reviewers can accept/decline the invite from the email sent or from the call main page as below
+
+
+![mceclip4.png](../../../resources/article-images/13620936206611-Bulk-Import-Reviewers-Invite_5.png)
+
+
+

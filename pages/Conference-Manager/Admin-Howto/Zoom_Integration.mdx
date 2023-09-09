@@ -1,20 +1,4 @@
-import { shareArticle } from '../../share.js';
-import { FaLink } from 'react-icons/fa';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
-export const ClickableTitle = ({ children }) => (
-    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
-        {children} 
-        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
-    </h1>
-);
-
-<ToastContainer />
-
-<ClickableTitle>Zoom Integration</ClickableTitle>
-
-
+# Zoom Integration
 
 
 Slayte has a generic Zoom integration that lets you add Zoom meetings to sessions. This is always available on each session and you can simply paste the join link and add the meeting ID and passcode.
@@ -24,9 +8,6 @@ However, Slayte is also a [Zoom partner](https://marketplace.zoom.us/apps/iwf4y3
 
 
 Additionally, Slayte allows you to add **multiple Zoom licenses** so that your team can run multiple overlapping sessions (Zoom limits to one meeting per registered Zoom account owner, but Slayte lets you add multiple so you are no longer limited).
-
-
- 
 
 
 To link a new Zoom account, you have to be a **Superadmin** on the account. Then follow the steps below:

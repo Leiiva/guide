@@ -15,8 +15,6 @@ export const ClickableTitle = ({ children }) => (
 <ClickableTitle>Create Custom PDF Templates for Submissions Export</ClickableTitle>
 
 
-
-
 As an administrator, one can specify, under the submission phase, a custom template to use and generate [PDF exports of individual submissions.](https://docs-for-customers.slayte.com/hc/en-us/articles/115009676927)
 
 
@@ -38,8 +36,7 @@ This is particularly useful when only specific information is needed to be inclu
 ## Template Placeholders
 
 
-
-
+```
 |  |  |
 | --- | --- |
 | {{headerImageURL}} | Insert the logo defined under Slayte [Administrative Settings.](https://docs-for-customers.slayte.com/hc/en-us/articles/4412997300115) |
@@ -59,20 +56,13 @@ This is particularly useful when only specific information is needed to be inclu
 {{getValue authorProfileFields
       "UUID"}}
 
-
-
-
-...
-...
-
-
 {{#each authors}}
 
 
  | Lists each individual author and co-author associated with the submission, and also include any profile fields associated with the author. |
 | 
 {{#each sections}}
-...
+
 {{sectionTitle}
 {{#each fields}}
 {{fieldname}}
@@ -92,7 +82,7 @@ Section 2, field 3 = {{getFieldValue sections "sections.1.fields.2"}}
 
 
  
-
+```
 
 ### Sample Default PDF
 

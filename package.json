@@ -19,6 +19,10 @@
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
     "@astrojs/react": "^3.0.0",
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.4.19",
+    "@types/mdx": "^2.0.7",
     "fuse.js": "^6.6.2",
     "next": "^13.4.19",
     "nextra": "^2.12.3",

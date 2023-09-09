@@ -35,52 +35,7 @@ This is particularly useful when only specific information is needed to be inclu
 
 ## Template Placeholders
 
-
-|  |  |
-| --- | --- |
-| {{headerImageURL}} | Insert the logo defined under Slayte [Administrative Settings.](https://docs-for-customers.slayte.com/hc/en-us/articles/4412997300115) |
-| {{submissionName}} | Fetches submission name value |
-| {{callName}} | Fetches call name value |
-| {{dateSubmitted}} | Fetches date submitted value |
-| {{dateExported}} | Fetches date the PDF export was generated |
-| {{linkToSubmission}} | Inserts a link to the submission online |
-| {{submitterName}} | Inserts the name of the submitter |
-| {{submitterEmail}} | Inserts email of the submitter |
-| 
-{{#each authorList}}
-
-{{separator this ", "}} /*/ Can be used to separate authors/*/
-
-
-{{getValue authorProfileFields
-      "UUID"}}
-
-{{#each authors}}
-
-
- | Lists each individual author and co-author associated with the submission, and also include any profile fields associated with the author. |
-| 
-{{#each sections}}
-
-{{sectionTitle}
-{{#each fields}}
-{{fieldname}}
-{{fieldValue}}
-{{Each}}
- |  List all the sections of the submission, which can detail: section title, name of the field, and name of the value introduced by the submitter. |
-| 
-{{getFieldValue sections "sections.#.fields.#"}}
- | Specify individual values of the fields in the submission. This is particularly useful if the headers are not meaningful for the presentation of the PDF.
- 
-The pound sign should be replaced by the number of the section and field position, respectively, subtracted by one in each value
- 
-For example:
-Section 1, field 1 = {{getFieldValue sections "sections.0.fields.0"}}
-Section 2, field 3 = {{getFieldValue sections "sections.1.fields.2"}}
-  |
-
-
- 
+![mceclip1.png](../../../resources/article-images/12702004234003-Create-Custom-PDF-Templates-for-Submissions-Export_2.png)
 
 
 ### Sample Default PDF
@@ -257,5 +212,7 @@ Fields:<br />
 5. Once the template has been created/selected, you can **View Preview** and define the allowed PDF attachments fields to be exported with the submissions 
 ![mceclip0.png](../../../resources/article-images/12702004234003-Create-Custom-PDF-Templates-for-Submissions-Export_1.png)
 
-**NOTE:** If you would like us to design a custom template for you, you can request a quote, email us to hello@slayte.com.
+### **NOTE:** 
+
+If you would like us to design a custom template for you, you can request a quote, email us to hello@slayte.com.
 

@@ -1,0 +1,81 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 1/6/2022</ClickableTitle>
+
+
+
+
+## Calls Module
+
+
+* Significant changes have been done to the form builder to improve the user experience.
+
+
+	+ General aesthetics have been changed to accommodate the new changes.
+	+ Each form item now has a numeric value to indicate the position and assist with skip-logic configuration.
+	+ There is now validation when a template form is saved, to indicate missing information required in the fields.
+	
+	
+		- An error message is presented that now indicates the location of the field and the item missing required information.
+	+ It is now possible to insert fields below or above an existing field in the form builder (when the call is not live status).
+	+ An error message is now presented with skip-logic is incorrectly configured, indicating the problematic field.
+	+ An up and down button has now been added that allows re-arranging fields in lengthy forms and across sections.
+	+ A master button to “Collapse all fields” has been added, improving navigation for content-heavy or lengthy forms.
+	+ A confirmation dialog is now presented to the user when attempting to delete an entire section in the form builder.
+
+
+### Conference Module
+
+
+* “My Schedule” for attendees and speakers has been reworked and reorganized to improve the user experience.
+
+
+	+ Attendees have now the ability to filter by category and search sessions under “My Schedule”
+	+ There is now separation of a speaker who is also an attendee, from “Enrolled Sessions” and “Speaker Sessions”
+* Filters applied as an attendee under “Sessions and My Schedule” are now persistent when exploring others sections of the conference, and will remain in place when returning to these sections.
+* Attendees now see a countdown to session start, when accessing a session detail page.
+
+
+	+ When the countdown time reaches 0, the session now automatically starts if the user is enrolled or no enrollment requirement has been configured by the administrator.
+	+ Attendees are able to prematurely join in the waiting room at the 5 minutes mark if desired, instead of waiting for the countdown to start.
+	+ Attendees will now automatically join the session chat by default.
+	
+	
+		- Attendees are able to turn off session chat that they automatically joined if desired.
+* Slayte now has the ability to use RTMP video streams for hybrid events.
+* The “Add Video or Stream service” in session detail workflow has been improved and simplified.
+
+
+	+ A shortcut to access the Zoom configuration that opens in the Zoom website has been added, to facilitate verifying correct Zoom session details.
+
+
+ 
+
+
+### Bug Fixes and QoL improvements
+
+
+* An issue in which “All Chats” UI would overlap with the navigation bar has been corrected.
+* An issue when using hidden fields in the form builder would prevent form operation has being corrected.
+* An issue that would prevent submitting previously saved drafts has been corrected.
+* An issue in which some help tip buttons were incorrectly placed has been corrected.
+* An issue that would incorrectly flag skip-logic fields in loop, has been corrected.
+* An issue that allowed administrators to save incorrect settings on video/stream on session detail has been corrected.
+* Several validations are now placed on session detail to prevent the administrator from incorrectly saving a partial session setup.
+* It is now possible to have the field type “Additional Form” in the form builder, optional and hidden from the submitter.
+* An issue that would prevent Call Chairs from downloading Reviewer-specific bulk exports has been addressed.
+
+

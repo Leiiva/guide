@@ -1,0 +1,10 @@
+{
+  "Edit_Session_Details": {
+    "title": "Edit Session Details",
+    "display": "hidden"
+  },
+  "Email_Speakers_or_Attendees_as_Editor": {
+    "title": "Email Speakers or Attendees as Editor",
+    "display": "hidden"
+  }
+}

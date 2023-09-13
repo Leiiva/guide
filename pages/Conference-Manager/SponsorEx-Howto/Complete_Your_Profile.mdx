@@ -1,0 +1,42 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Complete Your Profile</ClickableTitle>
+
+
+
+
+1. Select **your name** in the upper right corner
+
+
+ 
+
+
+2. Select **Settings**
+
+
+ 
+
+
+3. Upload a **profile picture** and **fill in the additional information requested**
+
+
+ 
+
+
+4. When ready select **SAVE** to complete change(s)
+
+
+

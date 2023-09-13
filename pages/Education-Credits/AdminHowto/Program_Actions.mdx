@@ -1,0 +1,32 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Program Actions</ClickableTitle>
+
+
+
+
+1. On the Home page, select **Education**
+2. From the **Programs** tab, navigate to the desired Education Program and click the **VIEW** button
+3. Select the **Settings** tab
+4. Locate the **Actions** Section, and click the applicable option:
+	* **Activate Claiming:** Opens the program for claiming and is now live.
+	* **Pause Claiming:** This pauses the program claiming process.
+	* **Copy Program:** Copies the program for use in a subsequent year.
+	* **Archive Program:** Archives the program, so it's not visible to the Administrator once closed.
+	* **Unarchive Program:** Returns the program to a paused state where claiming hasn't been enabled.
+	* **Delete Program:** This is an irreversible action and will remove the program and all related data.
+
+

@@ -1,0 +1,65 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 5/04/2022</ClickableTitle>
+
+
+
+
+## Events Module
+
+
+### Revised Category Workflow
+
+
+The events category workflow has been revised, it is now possible to rename “Categories” and “Values” respectively, as well as to re-arrange.
+
+
+Additionally, a new feature was implemented with this workflow that now allows the administrator to freely choose any color through a color picker, or HEX/RGB code for each category, this will reflect in all applicable areas.
+
+
+### Editor Groups
+
+
+The long-requested feature has finally arrived. Editor groups provide the ability to create event-specific permissions, that allow the Administrator to designate a subset of users to take several actual within the sessions of an event, such as editing Titles, Descriptions, etc.
+
+
+This feature can be accessed from the “Events” menu under the respective event, followed by clicking under “Events”
+
+
+ 
+
+
+### Copy Event
+
+
+Painlessly copy an existing event for re-use with minimal tweaking. All event configuration and setup is copied over, except:
+
+
+* Links to Calls/Submissions/Education Credits
+* Remote/Export configuration
+* Integrations
+
+
+## Events Module
+
+
+### Submissions Module
+
+
+A few field type “Select” has been added. This field allows multiple selections from a dropdown menu with search bar option.
+
+
+

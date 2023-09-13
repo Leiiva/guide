@@ -1,0 +1,94 @@
+{
+  "Accept_Chat_Request(s)": {
+    "title": "Accept Chat Request(s)",
+    "display": "hidden"
+  },
+  "Additional_Page_Call_to_Action_-_Creating_Labels": {
+    "title": "Additional Page Call to Action - Creating Labels",
+    "display": "hidden"
+  },
+  "Add_About_Company_Description": {
+    "title": "Add About Company Description",
+    "display": "hidden"
+  },
+  "Add_Link": {
+    "title": "Add Link",
+    "display": "hidden"
+  },
+  "Add_Link_Title": {
+    "title": "Add Link Title",
+    "display": "hidden"
+  },
+  "Add_Social_Media_Links": {
+    "title": "Add Social Media Links",
+    "display": "hidden"
+  },
+  "Add_Website_Link": {
+    "title": "Add Website Link",
+    "display": "hidden"
+  },
+  "Complete_Your_Profile": {
+    "title": "Complete Your Profile",
+    "display": "hidden"
+  },
+  "Connect_with_Speakers-Attendee(s)": {
+    "title": "Connect with Speakers-Attendee(s)",
+    "display": "hidden"
+  },
+  "Download_Report(s)": {
+    "title": "Download Report(s)",
+    "display": "hidden"
+  },
+  "Edit_-Preview_Company_Page": {
+    "title": "Edit -Preview Company Page",
+    "display": "hidden"
+  },
+  "Edit_Site-Preview_Site": {
+    "title": "Edit Site-Preview Site",
+    "display": "hidden"
+  },
+  "Enable-Disable_Chat_Availability": {
+    "title": "Enable-Disable Chat Availability",
+    "display": "hidden"
+  },
+  "Export_Leads_List": {
+    "title": "Export Leads List",
+    "display": "hidden"
+  },
+  "General_Sponsorship_Opportunities_-_Advertisements": {
+    "title": "General Sponsorship Opportunities - Advertisements",
+    "display": "hidden"
+  },
+  "Hide_Site_From_Attendees": {
+    "title": "Hide Site From Attendees",
+    "display": "hidden"
+  },
+  "Insert_Tagline": {
+    "title": "Insert Tagline",
+    "display": "hidden"
+  },
+  "Log_In": {
+    "title": "Log In",
+    "display": "hidden"
+  },
+  "Review_Your_Inbox": {
+    "title": "Review Your Inbox",
+    "display": "hidden"
+  },
+  "Show_All_Chat_Request(s)": {
+    "title": "Show All Chat Request(s)",
+    "display": "hidden"
+  },
+  "Upload_Directory_Image": {
+    "title": "Upload Directory Image",
+    "display": "hidden"
+  },
+  "Upload_Logo_Image": {
+    "title": "Upload Logo Image",
+    "display": "hidden"
+  },
+  "View_Leads": {
+    "title": "View Leads",
+    "display": "hidden"
+  }
+}

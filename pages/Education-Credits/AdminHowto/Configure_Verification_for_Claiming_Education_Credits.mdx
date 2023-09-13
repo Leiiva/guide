@@ -1,0 +1,48 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Configure Verification for Claiming Education Credits</ClickableTitle>
+
+
+
+
+This feature allows you to specify diverse criteria to determine if the credit claiming will qualify to claim the credit.
+
+
+To configure the Verification:
+
+
+1. From **Home**, select **Education**
+2. Navigate to the desired education program, and select the **View** button
+3. Select the **Settings** tab, then scroll down to select **Edit**
+4. Under the **Verification** section, you will be able to configure the following when **enabled**
+
+
+* Verification Max Attempts: Specifies the number of retries the claimer can fail, before they are no longer able to claim the credit.
+* Verification Passing Score (Percentage): Sets the percentage of the correct answers the claimer has to provide the verification template in order to claim.
+* Create a Custom message for **Failed Claim Attempts**
+* Create a Custom message for **Successful Claims**
+* Create a Custom message **All Claim Attempts Failed**
+* A template needs to be configured under the claimable item, more [information here](https://docs-for-customers.slayte.com/hc/en-us/articles/4412149904275-Add-Claimable-Items-the-Program)
+* **Claimer must have attended the linked session:** Allows specifying which session in the Conference Manager module, should be attended in order to confirm attendance and claim the credit. For information about configuring the attendance threshold for sessions, for more information [click here](https://docs-for-customers.slayte.com/hc/en-us/articles/4580473991955)
+
+
+**Please note, claimers cannot claim items if they are Speakers:** Prevents speakers from claiming credits from the session they are speakers of.
+
+
+**Please note, the WYSIWYG editor** for creating custom messages does not allow lengthy links or embedding of images.
+
+
+

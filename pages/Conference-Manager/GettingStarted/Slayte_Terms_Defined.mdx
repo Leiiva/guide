@@ -1,0 +1,30 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Slayte Terms Defined</ClickableTitle>
+
+
+
+
+**Event** is made up of Speaker Sessions that form together to create a schedule for a real-life event or conference, that can be held virtually, in person or hybrid.
+
+
+**Session(s)** are the building blocks for Events that contain information on speakers, content, track and more. Sessions commonly have allocated time slots and locations, and speakers may be invited to share their insights during them.
+
+
+**Fields** are the variables that help distinguish each session during an event such as Speaker Topic, Location, Track. Custom fields are chosen by an administrator and added to a template that will be filled in to create the event schedule.
+
+
+

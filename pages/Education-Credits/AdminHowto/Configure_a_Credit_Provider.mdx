@@ -1,0 +1,183 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Configure a Credit Provider</ClickableTitle>
+
+
+
+
+*Credit Providers* are the institutions that will be providing the credits to the *Claimers,* or the claimers can choose which credit to earn.
+
+
+## To configure the Credit Provider:
+
+
+1. From **Home** select **Education**
+
+
+2. Select the **Providers** tab
+
+
+3. Select **Create Provider**
+
+
+* **Name:** This should be listed as the Credit Provider in *YOUR AMS*, this **MUST** match the provider's **Name** in the AMS, not the **Code**
+* **Credit Name:**Identification of the Credit given to the provider within Slayte for display purposes
+* **Certificate Template:** Slayte generates a PDF certificate when claims are submitted, and you have full control to customize this PDF template to match your branding. **Upload** an HTML-certificate-template file (see example below). It should be UTF-8 encoded and have .hbs or .handlebars at the end as the extension name. The file can contain placeholders (please refer to the example below on how to use them, and which are available), and the placeholders will be replaced for each submitter and their claims.
+* **Profile Fields:** These are administrator-defined profile fields, that the user has to fill out before submitting their credit claims
+	+ **Field Name:** Presented name of the field. Eg: License Number
+	+ **Placeholder Name:** This is the placeholder name that is specified in the certificate template to place this information
+	+ **Requirement:** Indicate this field as required in the certificate template. Claimers will not be able to generate their certificate until they provide this value.
+
+
+6. Click **Save** to commit the configuration
+
+
+## Certificate Template Placeholders
+
+
+
+
+|  |  |
+| --- | --- |
+| **Placeholder** | **Description** |
+| 
+claimerName
+ | Name of the claiming user |
+| 
+claimedCreditsCount
+ | Total sum of credits claimed in this certificate |
+| 
+
+
+claimedItemsCount
+
+
+ | How many items are claimed in this certificate |
+| 
+
+
+providerName
+
+
+ | Name of the provider |
+| 
+creditName
+ | Name of the credits offered by the provider |
+| claimedDate | Date when this certificate is generated |
+| 
+
+
+#each listItems
+...
+/each
+
+
+ | Creates a programmatic loop iterating over the claims included in this certificate, e.g. one per claimed session. Each claim has several placeholders available, see below. |
+
+
+## Certificate Claim Placeholders
+
+
+
+
+|  |  |
+| --- | --- |
+| **Placeholder** | **Description** |
+| 
+claimItemCreditAmount
+ | The credits associated with the item in this claim |
+| 
+claimItemDate
+ | Date when this item was claimed (can be different from certificate generation) |
+| 
+claimItemName
+ | Name of this claim item, e.g. the session name |
+
+
+ 
+
+
+## Creating Custom Profile Fields Placeholders
+
+
+To configure non-system placeholders, administrators can poll custom profile fields into the mapping into the provider's profile, [for the claimer to populate before generating the certificate](https://docs-for-customers.slayte.com/hc/en-us/articles/5381554833171). Here’s a brief description of how to add:
+
+
+1. Under Education, select the **Providers** tab
+2. Select + **Create New Provider** or select **Edit** to change an existing one
+3. Select **+ Add Profile Field**
+	* Field Name: Label the claimer will see when completing the provider's profile
+	* Placeholder Name: Value that will be used as a placeholder to reference in the certificate template. **Must be in camelCase**
+
+
+## Certificate Example
+
+
+See the below example for styling code and visual aid of a certificate and its template.
+
+
+![2022-04-01_14-53-21.png](../../../resources/article-images/4579670710675-Configure-a-Credit-Provider_1.png)
+
+
+ 
+
+
+Below is the source code used to generate this certificate (the template source code in .HTML format)
+
+
+
+
+```
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+ <title>Certificate</title>  
+</head>  
+<body style="text-align: center; margin-top: 15px">  
+ <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/600px/_Black/_star/_White/_background.svg"/>  
+ <h1>Certificate of Continuing Education</h1>  
+ <div>  
+ <p>{{claimerName}}</p>  
+ <p style="width: 800px; margin: 0 auto;">  
+ has completed {{claimedCreditsCount}} clock hour(s) of continuing education at  
+ <strong>{{providerName}}</strong>  
+ </p>  
+ <p>(License Number {{licenseNumber}}).</p>  
+ </div>  
+ <p><br /></p>  
+ <ol style="width: 800px; margin: 0 auto;">  
+ {{#each listItems}}  
+ <li>  
+ {{claimItemName}} ({{claimItemCreditAmount}} "{{creditName}}" credits, claimed on {{claimItemDate}})  
+ </li>  
+ {{/each}}  
+ </ol>  
+ <br/>  
+ <br/>  
+ <div>  
+ <p style="text-decoration: underline">Jennifer Ng</p>  
+ <p>President & CEO</p>  
+ <p>American Society on Industrial Mechanics</p>  
+ </div>  
+</body>  
+</html>
+```
+
+
+

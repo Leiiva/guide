@@ -1,0 +1,61 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Slayte Education Credits Setup</ClickableTitle>
+
+
+
+
+## Introduction
+
+
+This article outlines, how to create Education Credits in Slayte, which can be used in Slayte Events Module, to be assigned to sessions, then claimed by the attendees and generate a certificate, or register them in Impexium custom tables.
+
+
+ 
+
+
+## Requirements
+
+
+* An [Education Credits Program in Impexium](https://help.impexium.com/Content/event_education%20credits.htm?Highlight=education%20credits) (Optional if integration will be used).
+* An Education Credits Provider (Optional if integration will be used to register credits in Impexium).
+* [An event in Slayte](https://docs-for-customers.slayte.com/hc/en-us/categories/4412140122259-Conference-Manager), that will have claimable sessions for the education credits.
+
+
+ 
+
+
+### Slayte Setup
+
+
+1. [Create an Education Program](https://docs-for-customers.slayte.com/hc/en-us/articles/4412149893523)
+2. Configuring your Educations Program
+	* [Configure Access Control](https://docs-for-customers.slayte.com/hc/en-us/articles/4574898036115)
+	* [Setup Feedback Templates (Optional)](https://docs-for-customers.slayte.com/hc/en-us/articles/4575934054675)
+	* [Setup Ratings (Optional)](https://docs-for-customers.slayte.com/hc/en-us/articles/4576268259347)
+	* [Configure Verification](https://docs-for-customers.slayte.com/hc/en-us/articles/4576813886995)
+	* [Configure Certification Workflow](https://docs-for-customers.slayte.com/hc/en-us/articles/4578704390547)
+3. [Setup Claiming Providers](https://docs-for-customers.slayte.com/hc/en-us/articles/4579670710675)
+4. Setup Claimable Items
+	* [Configure Claimable Items](https://docs-for-customers.slayte.com/hc/en-us/articles/Configure%20Claimable%20Items)
+	* [Setup attendance threshold (Optional)](https://docs-for-customers.slayte.com/hc/en-us/articles/4580473991955)
+5. [Activate Claiming for the Program](https://docs-for-customers.slayte.com/hc/en-us/articles/4580580340755)
+
+
+ 
+
+
+

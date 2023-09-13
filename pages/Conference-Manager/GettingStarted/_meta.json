@@ -1,0 +1,38 @@
+{
+  "About_Slayte_Conference_Manager": {
+    "title": "About Slayte Conference Manager",
+    "display": "hidden"
+  },
+  "Create_a_Slayte_Shortcut": {
+    "title": "Create a Slayte Shortcut",
+    "display": "hidden"
+  },
+  "Slayte_Terms_Defined": {
+    "title": "Slayte Terms Defined",
+    "display": "hidden"
+  },
+  "Tier_1_-_Planning_Only": {
+    "title": "Tier 1 - Planning Only",
+    "display": "hidden"
+  },
+  "Tier_2_-_Public_Program": {
+    "title": "Tier 2 - Public Program",
+    "display": "hidden"
+  },
+  "Tier_3_-_Personalized_Scheduling": {
+    "title": "Tier 3 - Personalized Scheduling",
+    "display": "hidden"
+  },
+  "Tier_4_-_On-Demand_Content": {
+    "title": "Tier 4 - On-Demand Content",
+    "display": "hidden"
+  },
+  "Tier_5_-_Interactive_Participation": {
+    "title": "Tier 5 - Interactive Participation",
+    "display": "hidden"
+  },
+  "Understanding_Session_Format": {
+    "title": "Understanding Session Format",
+    "display": "hidden"
+  }
+}

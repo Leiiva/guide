@@ -1,0 +1,38 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 2/18/2022</ClickableTitle>
+
+
+
+
+### Quality of Life Improvements and Bug Fixes
+
+
+Several UI changes in the platform have been made that will allow increased usability for the administrators, primarily focused on the Conference Module.
+
+
+* Several UI improvements were made to Attendee Chat in Events Module.
+* Improved filtering in the sessions grid that allows enhance filtering by date.
+* There's a visual indication in the submissions grid of which session the administrator is editing.
+* Scroll position and session detail selection are not lost when accessing a different session detail.
+* The submissions grid does no longer fully reload when certain changes are made in the sessions grid.
+* Submissions grid custom view is now automatically saved and loaded by default, preserving current filtering for the user.
+* Corrected an issue that would prevent user name filtering when using certain symbols.
+* An issue that prevented "Quick Search" from operating has been corrected.
+* It is no longer required for event speakers to enroll in their sessions to visualize their session details.
+* Active Session Detail in the sessions grid is no longer hidden when applying filters.
+
+

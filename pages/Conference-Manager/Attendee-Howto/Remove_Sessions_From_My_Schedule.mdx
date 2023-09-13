@@ -1,0 +1,51 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Remove Sessions From My Schedule</ClickableTitle>
+
+
+
+
+When you no longer would like to attend or be part of a previously enrolled session, you can easily remove it from your schedule to free this time for another session, if desired.
+
+
+1. From the Home page, go to **Events** and click the desired event tile  
+2. Click **My Schedule** from the left panel
+
+
+![mceclip0.png](../../../resources/article-images/14425468455187-Remove-Sessions-From-My-Schedule_1.png)   
+3. You can search the session by name or filter, and once located click **View**
+
+
+![mceclip1.png](../../../resources/article-images/14425468455187-Remove-Sessions-From-My-Schedule_2.png)   
+4. On the right top corner of the session title bar, click ![mceclip2.png](../../../resources/article-images/14425468455187-Remove-Sessions-From-My-Schedule_3.png)**Remove from My schedule**
+
+
+**![mceclip4.png](../../../resources/article-images/14425468455187-Remove-Sessions-From-My-Schedule_4.png)**
+
+
+5. Click **Yes** to continue
+
+
+![mceclip5.png](../../../resources/article-images/14425468455187-Remove-Sessions-From-My-Schedule_5.png)
+
+
+6. You will receive the following confirmation message
+
+
+![mceclip6.png](../../../resources/article-images/14425468455187-Remove-Sessions-From-My-Schedule_6.png)
+
+
+

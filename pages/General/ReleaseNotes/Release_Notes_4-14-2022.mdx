@@ -1,0 +1,48 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 4/14/2022</ClickableTitle>
+
+
+
+
+## Events Module
+
+
+### Registered Event Speakers
+
+
+This feature is intended to provide visibility for speakers that have been registered for an event, this intends to give visibility to administrators of speakers that have been registered to the event, but also not registered to provide adequate follow-up in participation as needed.
+
+
+## Submissions Module
+
+
+### Signature Field
+
+
+A new field type has been added. It is now possible to add a new field to templates to collect signatures.
+
+
+## Several Fixes and QoL improvements
+
+
+* Fixed an issue that prevented administrators to view speaker profiles within the speaker's tab in the Events Module.
+* Corrected several layout issues in session detail from the attendee’s perspective.
+* Corrected issue that would incorrectly flag “Manually added users” as the same user under submission detail for administrators.
+* Fixed edge case that would cause session name to be displayed incorrectly on the public event website.
+* Addressed an issue in which “Events in the next 12 hours” would not display correctly if a session ran for days.
+
+

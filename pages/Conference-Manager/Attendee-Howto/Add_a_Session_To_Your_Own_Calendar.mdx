@@ -1,0 +1,52 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Add a Session To Your Own Calendar</ClickableTitle>
+
+
+
+
+Any session can be added to your personal calendar if you are looking for a more familiar view, additionally, you can keep track of the session by managing reminders, adding notes etc. directly from your own calendar. Follow the steps below: 
+
+
+1. From the **Event**, click the **Sessions** **Tab** from the left panel
+
+
+![mceclip0.png](../../../resources/article-images/14388559467027-Add-a-Session-To-Your-Own-Calendar_1.png)   
+2. Locate the desired session, and click the **Calendar icon** next to the session's title
+
+
+![mceclip1.png](../../../resources/article-images/14388559467027-Add-a-Session-To-Your-Own-Calendar_2.png)
+
+
+3. Select your **email provider** from the list
+
+
+![mceclip2.png](../../../resources/article-images/14388559467027-Add-a-Session-To-Your-Own-Calendar_3.png)
+
+
+4. You'll be routed to **sign in** to the email account you selected. The example below is with a Google account:
+
+
+![mceclip3.png](../../../resources/article-images/14388559467027-Add-a-Session-To-Your-Own-Calendar_4.png)
+
+
+Then, confirm the session details, set notifications, description, etc; as desired, and Save
+
+
+![mceclip5.png](../../../resources/article-images/14388559467027-Add-a-Session-To-Your-Own-Calendar_5.png)
+
+
+

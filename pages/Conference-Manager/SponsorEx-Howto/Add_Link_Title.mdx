@@ -1,0 +1,39 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Add Link Title</ClickableTitle>
+
+
+
+
+1. Navigate to the Company Portal **Info** from the left pane
+
+
+![mceclip1.png](../../../resources/article-images/4495112369043-Add-Link-Title_1.png)
+
+
+2. Type/Paste the title of the link that will be displayed the **Link Title** field
+
+
+![mceclip0.png](../../../resources/article-images/4495112369043-Add-Link-Title_2.png)
+
+
+3. Scroll down to select **SAVE** before leaving page
+
+
+![mceclip3.png](../../../resources/article-images/4495112369043-Add-Link-Title_3.png)
+
+
+

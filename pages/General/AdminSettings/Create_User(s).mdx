@@ -1,0 +1,57 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Create User(s)</ClickableTitle>
+
+
+
+
+1. From the Home page select **Users** either from the left menu or the Users tile
+
+
+![mceclip0.png](../../../resources/article-images/4413367372819-Create-User-s_1.png)
+
+
+2. Select **CREATE USER**
+
+
+![mceclip2.png](../../../resources/article-images/4413367372819-Create-User-s_2.png)
+
+
+3. Type in email address of user then select **Search** to ensure user is not already in the platform
+
+
+![mceclip3.png](../../../resources/article-images/4413367372819-Create-User-s_3.png)
+
+
+4. Fill in **First** and **Last name** field 
+
+
+5. Recommended to enable **Generate Password and send email with login credentials**
+
+
+6. Select **SAVE**
+
+
+![mceclip4.png](../../../resources/article-images/4413367372819-Create-User-s_4.png)
+
+
+7. You will be redirected to their profile page to edit, if needed 
+
+
+ 
+
+
+

@@ -1,0 +1,74 @@
+{
+  "Add_Claimable_Items_to_a_Program": {
+    "title": "Add Claimable Items to a Program",
+    "display": "hidden"
+  },
+  "Configure_Access_Control": {
+    "title": "Configure Access Control",
+    "display": "hidden"
+  },
+  "Configure_a_Credit_Provider": {
+    "title": "Configure a Credit Provider",
+    "display": "hidden"
+  },
+  "Configure_Feedback_Template": {
+    "title": "Configure Feedback Template",
+    "display": "hidden"
+  },
+  "Configure_Ratings": {
+    "title": "Configure Ratings",
+    "display": "hidden"
+  },
+  "Configure_the_Certification": {
+    "title": "Configure the Certification",
+    "display": "hidden"
+  },
+  "Configure_Verification_for_Claiming_Education_Credits": {
+    "title": "Configure Verification for Claiming Education Credits",
+    "display": "hidden"
+  },
+  "Create_a_Claim_Program": {
+    "title": "Create a Claim Program",
+    "display": "hidden"
+  },
+  "Create_a_Speaker_Feedback_Template": {
+    "title": "Create a Speaker Feedback Template",
+    "display": "hidden"
+  },
+  "Delete_Credit_Provider": {
+    "title": "Delete Credit Provider",
+    "display": "hidden"
+  },
+  "Export_Claimable_Items": {
+    "title": "Export Claimable Items",
+    "display": "hidden"
+  },
+  "Export_Education_Programs": {
+    "title": "Export Education Programs",
+    "display": "hidden"
+  },
+  "Filter_Education_Programs": {
+    "title": "Filter Education Programs",
+    "display": "hidden"
+  },
+  "How_to_Create_a_Program_Category": {
+    "title": "How to Create a Program Category",
+    "display": "hidden"
+  },
+  "Import_Event_Sessions_as_Claimable_Items": {
+    "title": "Import Event Sessions as Claimable Items",
+    "display": "hidden"
+  },
+  "Manage_Claims": {
+    "title": "Manage Claims",
+    "display": "hidden"
+  },
+  "Program_Actions": {
+    "title": "Program Actions",
+    "display": "hidden"
+  },
+  "Withdraw_a_User's_Claim": {
+    "title": "Withdraw a User's Claim",
+    "display": "hidden"
+  }
+}

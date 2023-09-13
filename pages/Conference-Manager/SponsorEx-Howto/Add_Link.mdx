@@ -1,0 +1,45 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Add Link</ClickableTitle>
+
+
+
+
+Exhibitor/Sponsor URL to display the link below the **About** section.
+
+
+1. Navigate to the Company Portal **Info** from the left pane
+
+
+![mceclip1.png](../../../resources/article-images/4495029354771-Add-Link_1.png)
+
+
+2. Type/Paste URL in the **Link** field
+
+
+![mceclip0.png](../../../resources/article-images/4495029354771-Add-Link_2.png)
+
+
+3. Scroll down to select **SAVE** before leaving page
+
+
+![mceclip3.png](../../../resources/article-images/4495029354771-Add-Link_3.png)
+
+
+Please note, you will also be able to white label the link to a link title, please click **[here](https://docs-for-customers.slayte.com/hc/en-us/articles/4495112369043)** for more details.
+
+
+

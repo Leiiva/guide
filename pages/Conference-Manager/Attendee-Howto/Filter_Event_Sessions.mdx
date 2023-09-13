@@ -1,0 +1,69 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Filter Event Sessions</ClickableTitle>
+
+
+
+
+You can easily locate sessions of your interest, by searching sessions by name, date or adding filters from the **My Schedule**tab for sessions that you previously selected/registered or the **Sessions** tab for all event sessions
+
+
+![](../../../resources/article-images/14385165573651-Filter-Event-Sessions_1.png)
+
+
+## Name
+
+
+You can type the full session name, or a word(s) to locate a session(s) related
+
+
+![mceclip0.png](../../../resources/article-images/14385165573651-Filter-Event-Sessions_2.png)
+
+
+## Date
+
+
+Predefined dates of the event will be available for you to filter, additionally, you can set to view sessions to take place Next 12 hours, All or Past Sessions
+
+
+![mceclip1.png](../../../resources/article-images/14385165573651-Filter-Event-Sessions_3.png)
+
+
+## Filter
+
+
+Add filter criteria to display only related sessions. Click the **Filter field** to display a drop-down menu with the available categories
+
+
+![mceclip2.png](../../../resources/article-images/14385165573651-Filter-Event-Sessions_4.png)
+
+
+Select the desired criteria, and click **Add**
+
+
+**![mceclip3.png](../../../resources/article-images/14385165573651-Filter-Event-Sessions_5.png)**
+
+
+**Note:** You can add as many categories as you want
+
+
+You can remove any filter criteria, by clicking the **X** next to it.
+
+
+![mceclip4.png](../../../resources/article-images/14385165573651-Filter-Event-Sessions_6.png)
+
+
+

@@ -1,0 +1,51 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Email Speakers or Attendees as Editor</ClickableTitle>
+
+
+
+
+1. From the desired event, click **Editor Home**
+
+
+2. Click **View** to the right of the Session Title
+
+
+3. Click **Manage Session** 
+
+
+## Speakers
+
+
+Click the **Speaker's** **Tab** to display the complete list. From here you can select some or all, and send a message by clicking the **Send Email** button 
+
+
+![mceclip0.png](../../../resources/article-images/12990018952211-Email-Speakers-or-Attendees-as-Editor_1.png)
+
+
+Once done writing the message, click **Send**
+
+
+## Attendee
+
+
+Go to the **Attendee's tab**, to display the complete list. For Attendees, you can send a message by clicking  **Send Email** or **Export**to receive an email with the list of attendees
+
+
+![mceclip1.png](../../../resources/article-images/12990018952211-Email-Speakers-or-Attendees-as-Editor_2.png)
+
+
+

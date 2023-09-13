@@ -1,0 +1,88 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 12/23/2021</ClickableTitle>
+
+
+
+
+## **Calls Module**
+
+
+**Review focused exports**
+
+
+Looking to provide the administrators with higher visibility and granularity on reviewers, we now have the ability to run review-focused exports.
+
+
+* Details such as Submission name, review status, reviewer, assignment, and completion date are included.
+* Ability to see reviewer responses on a submission.
+* Details on review by Review Phase.
+* Export on demands to CSV.
+
+
+**Multiple Drafts**
+
+
+Providing flexibility to our submitters, we now have the ability to have multiple concurrent drafts.
+
+
+* Work on multiple submissions at a time, while being able to return to the existing draft
+* Load any stored draft and submit, or discard as needed.
+
+
+**Reviewer Recusal Audit Trail**
+
+
+Administrators/Call Chairs now have visibility of reviewers that have recused themselves from a submission, effectively preventing said reviewer from being assigned to the same submission in the future.
+
+
+* Visibility from the admin side to prevent recused reviewers from receiving an assignment of the submission through multiple review phases.
+* Exclusion from a recused reviewer from automatic assignments.
+* Reporting on accidental attempts to assign submission for review on a recused reviewer.
+
+
+## **Competitions Module**
+
+
+* Administrators are now able to configure ‘'Team instructions’' to present to the participants upon applying on team setups.
+* A unique application number is now generated, that is now visible to the applicant and administrator of the competition
+* Administrators are now able to configure a custom ‘'Confirmation message’' upon application submission that will be presented to the applicant.
+
+
+* 
+
+
+## **Quality of Life Improvements and bug fixes**
+
+
+* Manual entries on user fields are now validated before submissions.
+
+
+	+ If the user already exists within Slayte/Impexium database, it is then presented to the user.
+	+ Only valid email formats are accepted.
+* An issue in which users in chats would not have names have been corrected.
+* An issue in which administrators would not be able to close competitions with unbroken ties has been corrected.
+* An issue that prevented custom review distribution when assigning submissions to reviewers has been corrected.
+* Increased visibility reporting on Conference module remote: export feature for failures.
+* An issue that prevented mapping Remote: Export configuration to Impexium: Rooms have been corrected.
+* An issue that prevented mapping Remote: Export to Impexium Tracks has been corrected.
+* An issue that would cause server fields to de-map themselves has been corrected.
+* An issue that limited the visibility of calls presented in ‘'Calls’' view has been corrected.
+* Improved performance of the ‘'Reviews Tab’' in submissions when high amount of data is being presented.
+* Corrected an issue that would prevent Conference Scheduling ‘'Conflict Detection’' from presenting results when using ‘'Custom Fields’'.
+* Improved filters for ‘'Sessions’' tab in the conference module with better usability.
+
+

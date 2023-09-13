@@ -1,0 +1,45 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Accept Chat Request(s)</ClickableTitle>
+
+
+
+
+As a Company Representative you will receive a pop up indicating a new chat request received from an attendee.
+
+
+1. Accept the request by clicking on **ACCEPT REQUEST**
+
+
+![mceclip1.png](../../../resources/article-images/4495212616467-Accept-Chat-Request-s_1.png)
+
+
+2. You will be able to **view the attendee's profile** before/during the chat interaction
+
+
+3. Click within the text field then **begin typing**
+
+
+4. When ready to send the chat message select **SEND**
+
+
+![mceclip2.png](../../../resources/article-images/4495212616467-Accept-Chat-Request-s_2.png)
+
+
+ 
+
+
+

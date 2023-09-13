@@ -1,0 +1,69 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 03/20/2023</ClickableTitle>
+
+
+
+
+* The “ClaimedDate” placeholder in claiming certificates is now presented in standard US format without time.
+* An issue was corrected that cached the company “GET Company” endpoint.
+* Added filters to the Sessions to Claimable Items import dialog.
+* Addressed an issue in which “Network” in webapp would stop loading profile pictures.
+
+
+### ***New*** - Import companies from CSV
+
+
+Administrators can now import in bulk, companies from CSV files.
+
+
+### ***New*** - Enhanced User Profile Features
+
+
+Administrators can now insert Server Fields into user profiles, allowing easy access to profile details like organization, titles, and biographies from Impexium. This feature is designed to streamline the process of presenting user information in conference settings and other areas of the platform.
+
+
+Key Points:
+
+
+1. The new feature allows for seamless integration of user profile details from Impexium into Slayte.
+2. Server Fields can be fetched through the following mechanisms:
+
+
+	1. When an Impexium user registers for an event in Slayte.
+	2. When a new Impexium user logs into Slayte.
+	3. When an existing Impexium user logs into Slayte.
+	4. During submission, when a submitter invites a co-author existing in Impexium but not in Slayte
+	5. When a user profile update is triggered through the Update User Endpoint.
+	6. When a user is added in Slayte, but only exists in Impexium
+	7. Manually trigger through the “Update User” endpoint
+3. Users not existing in both Impexium and Slayte will have empty profiles until a corresponding profile is created in Impexium.
+4. When an admin edits a user profile, the updated details will be captured.
+
+
+**Important Note:** Administrators should create stand-in user accounts in the AMS (Association Management Software) before connecting them to Slayte, as Server Fields cannot be manually edited in Slayte. This ensures that the speaker's information is properly captured and displayed even if they never log into either platform.
+
+
+ 
+
+
+## Known Issues
+
+
+When administrators edit a user's profile containing Server Fields, the fields may temporarily display the administrator's own profile information. However, upon saving the changes, the correct user's details will be displayed.
+
+
+

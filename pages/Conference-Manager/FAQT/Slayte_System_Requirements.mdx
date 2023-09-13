@@ -1,0 +1,36 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Slayte System Requirements</ClickableTitle>
+
+
+
+
+For associations looking to run successful and engaging conferences, the Slayte platform offers a comprehensive tool. To ensure the best possible experience, we recommend meeting the following minimum system requirements:
+
+
+**Web Browser:**  End users should use the latest version, or at least the latest two versions, of their preferred web browser, including Google Chrome (recommended), Mozilla Firefox, Safari, or Microsoft Edge.
+
+
+**Operating System:** Windows 7 or newer, macOS 10 Big Sur or newer.
+
+
+**Audio and Video Devices:**  End users should have a microphone and speakers, or preferably a headset, for audio. Additionally, a webcam is required for video if they plan to engage in meetings.
+
+
+**Internet Connection:**  While Slayte is flexible with internet connection requirements, we recommend a stable connection of at least 1.5Mbps/1.5Mbps (up/down) for general usage. For virtual conferences and media playback, we recommend a minimum of 3.8Mbps/3.0Mbps (up/down) for the best experience.
+
+
+

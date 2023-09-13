@@ -1,0 +1,72 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Manage User Permissions</ClickableTitle>
+
+
+
+
+**Super Admin**: Super admins have the highest permissions within the Slayte app. They have the ability to grant other users Administrator permissions, manage the Subscription Plan, create Calls, Events, Competitions, Grant Applications and much more. Super admin can also manage the site layout, add custom branding, modify communication settings and create custom company policies.
+
+
+**Call Admin**: Call Admins are able to create Calls, manage Submissions, assign Reviews, generate Reports and accept/reject Submissions.
+
+
+**Submitter**: Submitters are able to submit pieces of content into Calls, print and export their Submissions and withdraw their Submissions if Administrators have enabled this option.
+
+
+**Reviewer**: Reviewers are the users who will be assigned to provide ratings on Submissions collected, so these can be accepted/rejected.
+
+
+**Event Admin**: Event Admins can create events in Slayte, modify event settings, schedule event sessions, import sessions from Submissions and export these to external event processors.
+
+
+**Competition Admin**: Competition Admins have most permissions in the system, including creating competitions, modifying them, assigning performances and making any changes to Competition configurations. This role is automatically granted to all Impexium administrators that are specifically “Administrators” (not “Staff”).
+
+
+**Grant Admin**: Grant Admins have the ability to configure grant applications, assign reviewers to applications, communicate with all applicants and accept/reject applications.
+
+
+**Reach Admin**: Reach Admins can create networking programs during events and automatically schedule appointments between registrants, using external member databases.
+
+
+## To Manage User Permissions
+
+
+1. From the Home page select **Users**
+
+
+2. **Type in first and last name** of individual to search
+
+
+3. Select **VIEW PROFILE**
+
+
+4. Scroll down to **Permission Groups**
+
+
+5. Click in the Permission Groups field to expand drop down menu
+
+
+6. To remove a permission click the **x** in the tag
+
+
+7. Select the **X** in the upper right of modal window to save and close
+
+
+ 
+
+
+

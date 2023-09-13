@@ -1,0 +1,59 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 11/3/2021</ClickableTitle>
+
+
+
+
+## **New Features**
+
+
+## Calls Module
+
+
+* The submissions form builder is now able to generate randomized order options, for the field types: single selection, checkbox, and dropdowns. This will present each submitter with a random arrangement of the options available.
+* A new field has type has been added to the form builder, Additional Form. This field grants the ability, within an existing form, to send an additional for different uses, for example, a reference check.
+
+
+	+ This additional form can be built dynamically, tailored to the needs of the administrator similar to the form builder.
+	+ The contents of the submission can be displayed to the receiver of the additional form, without the need to login into the Slayte platform, allowing a step-less process for the receiver.
+	+ Customizable email template with placeholders for a more dynamic and robust presentation.
+
+
+## **Bugs and Quality of Life improvements**
+
+
+## Calls Module
+
+
+* Skip logic result fields not selected by the submitter in the calls module, will not be presented in the final submission form.
+
+
+	+ Reviewers will no longer see, skip logic fields that were not selected by the submitter.
+* Slayte is now correctly able to display to the user the location of an empty field on content-heavy forms.
+* The form builder in the Calls module, now allows hiding skip logic hierarchical fields.
+* Importing submissions into a call through CSV, now correctly allows empty fields marked as ‘'Optional’' to remain empty in the CSV export template.
+
+
+	+ The administrator is now able to import submissions into a call using the CSV template, on an unreleased call.
+
+
+## Conference Manager
+
+
+* In the Conference manager, speaker and networking lists are displayed in alphanumeric ascending order.
+
+

@@ -1,0 +1,36 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Export Leads List</ClickableTitle>
+
+
+
+
+1. From the Company Portal select **Leads**
+
+
+![mceclip0.png](../../../resources/article-images/4775630121107-Export-Leads-List_1.png)
+
+
+2. Select **EXPORT LEADS**
+
+
+![mceclip0.png](../../../resources/article-images/4775630121107-Export-Leads-List_2.png)
+
+
+3. The report will auto download to your device as a **.csv** with the list of Name's and Email Address(es)
+
+
+

@@ -1,0 +1,39 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Upload Directory Image</ClickableTitle>
+
+
+
+
+1. Navigate to the Company Portal **Info** from the left pane
+
+
+![mceclip1.png](../../../resources/article-images/4495104408211-Upload-Directory-Image_1.png)
+
+
+2. In the **Directory image** field either click in the Upload Image or drop image in field - Please note, recommended image is 400px x 400px. Images will be resized to cover.
+
+
+![mceclip0.png](../../../resources/article-images/4495104408211-Upload-Directory-Image_2.png)
+
+
+3. Scroll down to select **SAVE** before leaving page
+
+
+![mceclip3.png](../../../resources/article-images/4495104408211-Upload-Directory-Image_3.png)
+
+
+

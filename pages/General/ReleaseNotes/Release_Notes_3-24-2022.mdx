@@ -1,0 +1,34 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 3/24/2022</ClickableTitle>
+
+
+
+
+## Several Fixes and QoL improvements.
+
+
+* The SkipLogic workflow has been revised. The form builder now correctly prevents invalid configurations, and as well, indicates through an error message any current invalid configurations.
+* Further improved email validations in several areas.
+* Several workflows on the submissions module have been improved associated with deadlines, such as:
+
+
+	+ Linking/Mapping submissions while the phase is not active as the deadline has passed.
+	+ Viewing submission and review detail after the phase has lapsed.
+	+ Editing Submissions and Reviews if allowed by the administrator on a submission basis.
+* An issue in which under “Reviewers” in a call, was deleted, would prevent correct rendering of the page has been corrected.
+
+

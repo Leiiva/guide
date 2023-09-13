@@ -1,0 +1,50 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Configure Access Control</ClickableTitle>
+
+
+
+
+1. Under the Education Credits Program select **View**
+
+
+2. Select the **Settings** tab
+
+
+3. Select the **Edit** button at the end of the page
+
+
+4. Configure how the attendees should gain access to claim credits
+
+
+* **Claimable From/Until** - Set start and end times for the duration the credits can be claimed
+* **User Restriction's** default is **Anyone can claim** no restriction will be imposed on whom can participate is credit claiming
+* **Custom Restrictions** will impose restrictions based on various criteria, including but not limited to Impexium users:
+	+ - If user is member of group <x>, they can submit
+		- User must be a member of group <x>.
+		- User must not be member of group <x>
+		- Impexium: Individual Category
+		- Impexium: Active Membership
+		- Impexium: Committee position
+		- Impexium: Geographic Area
+		- Impexium: Membership Type
+		- Impexium: Relationship
+		- Impexium: Custom Field.
+		- Claimer must have attended Impexium event
+		- Claimer must have attended Impexium session
+		- Claimer must have registered for an Impexium session
+
+

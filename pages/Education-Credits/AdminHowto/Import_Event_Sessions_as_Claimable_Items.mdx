@@ -1,0 +1,54 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Import Event Sessions as Claimable Items</ClickableTitle>
+
+
+
+
+You can import some or all sessions from an event into your Education Program to be used as claimable items. Find the steps below: 
+
+
+1. Go to **Educations**, and click the **Claimable Items** tab 
+
+
+2. Click the **ellipsis** **button** to the right, and select **Import Sessions**
+
+
+3. Search by name of the event you are importing from
+
+
+![mceclip0.png](../../../resources/article-images/13119734997011-Import-Event-Sessions-as-Claimable-Items_1.png)
+
+
+4. Select the **session/sessions** that apply. To easily locate the sessions to use, you can search **name** or filter them by **Categories**
+
+
+![](../../../resources/article-images/13119734997011-Import-Event-Sessions-as-Claimable-Items_2.png)
+
+
+5. Fill in the session mapping, and click **Link**
+
+
+![mceclip2.png](../../../resources/article-images/13119734997011-Import-Event-Sessions-as-Claimable-Items_3.png)
+
+
+Once added, you can **Edit** the item by including **Credits** and **External ID** (Optional). Also, you can unlink the item from the session, keep in mind If you unlink, the current Item will not be affected, but future changes in the Session will not be applied. When unlinked, you can then change the **Name**, **Description,** and **Date**
+
+
+![](../../../resources/article-images/13119734997011-Import-Event-Sessions-as-Claimable-Items_4.png)
+
+
+

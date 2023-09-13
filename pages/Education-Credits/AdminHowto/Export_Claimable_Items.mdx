@@ -1,0 +1,34 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Export Claimable Items</ClickableTitle>
+
+
+
+
+Exporting Claims allows the administrator to download or print your list of Claimable items in .csv format. 
+
+
+1. Navigate to the **Homepage** then select the **Education** icon
+2. Select **View** next to the **Claim Program** you would like to export from
+3. Select the **Claimable Items** tab
+4. Select **Export Items****![mceclip0.png](../../../resources/article-images/4412149918995-Export-Claimable-Items_1.png)**
+5. Select **Confirm**
+
+
+Please note, this will generate an .CSV file that will be sent to you via email shortly. 
+
+
+

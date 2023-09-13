@@ -1,0 +1,39 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Log In</ClickableTitle>
+
+
+
+
+1. From the provided URL select **REGISTER/LOG IN** from the left corner of the page 
+
+
+2. Click on the provided **logo**
+
+
+![mceclip5.png](../../../resources/article-images/4495064515859-Log-In_1.png)
+
+
+**/*/*Please note, logos will vary.**
+
+
+3. Enter in your **email address** and **password** that you use to sign in with Impexium then select **Login**
+
+
+![mceclip6.png](../../../resources/article-images/4495064515859-Log-In_2.png)
+
+
+

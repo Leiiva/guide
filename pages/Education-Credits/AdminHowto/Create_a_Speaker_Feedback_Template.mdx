@@ -1,0 +1,51 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Create a Speaker Feedback Template</ClickableTitle>
+
+
+
+
+Speaker Templates can be used to collect feedback on specific speakers who lead the session. Speaker Templates can be integrated into the Verification Template to combine collecting feedback and verifying attendance in a singular form.
+
+
+1. Navigate to the **Homepage** then select **Education**
+2. Select **View** next to the desired **Claim Program** you would like to add a **Speaker Template**
+3. Select the **Settings** tab
+4. Scroll down and select **Edit**
+5. From the Feedback section toggle **Use Users** on
+6. Update the nomenclature for the speaker label
+7. Next, from the Speaker Template select **Create**
+8. Select **Add Field** to begin customizing the speaker's template form
+9. After finalizing the speaker's template select **SAVE**
+
+
+Example
+
+
+Fields are the custom Form items you can add to create questions related to Speaker performance. This article provides an overview of all the Form Fields that will be available and examples of how to use them. For this example we will add a few basic Form items.
+
+
+1. Select **View All Field Types**
+2. Select **Slider** and **add ‘Relevancy of Speaker Topic’** as the label
+3. Select **Add Field** and choose **Yes/No**
+4. Input ‘***Would you recommend this speaker for next year’s conference?***’
+5. Select **Save**
+
+
+You have now ***successfully*** added a Speaker Template!!
+
+
+

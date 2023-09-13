@@ -1,0 +1,22 @@
+{
+  "Claim_Credit(s)_After_Attending_In-Person_Session": {
+    "title": "Claim Credit(s) After Attending In-Person Session",
+    "display": "hidden"
+  },
+  "Finalize_Claim_&_Get_Certificate": {
+    "title": "Finalize Claim & Get Certificate",
+    "display": "hidden"
+  },
+  "Join_a_Session_&_Claim_Credits": {
+    "title": "Join a Session & Claim Credits",
+    "display": "hidden"
+  },
+  "Organize__your_Education_Programs": {
+    "title": "Organize  your Education Programs",
+    "display": "hidden"
+  },
+  "Withdraw_your_Claim": {
+    "title": "Withdraw your Claim",
+    "display": "hidden"
+  }
+}

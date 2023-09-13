@@ -1,0 +1,60 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Hide Site From Attendees</ClickableTitle>
+
+
+
+
+This will allow you to make changes to the company site and during the editing while the conference is live you may want/need to hide your site from attendees.
+
+
+1. Select **Page** 
+
+
+![mceclip0.png](../../../resources/article-images/4495179083923-Hide-Site-From-Attendees_1.png)
+
+
+2. Slide toggle to **Edit Site**
+
+
+![mceclip0.png](../../../resources/article-images/4495179083923-Hide-Site-From-Attendees_2.png)
+
+
+3. Select the **HIDE SITE FROM ATTENDEES** button
+
+
+![mceclip1.png](../../../resources/article-images/4495179083923-Hide-Site-From-Attendees_3.png)
+
+
+4. **Dismiss** notification
+
+
+![mceclip3.png](../../../resources/article-images/4495179083923-Hide-Site-From-Attendees_4.png)
+
+
+5. After making changes you will be able to **SHOW SITE TO ATTENDEES** by selecting the button
+
+
+![mceclip3.png](../../../resources/article-images/4495179083923-Hide-Site-From-Attendees_5.png)
+
+
+6. **Dismiss** notification
+
+
+![mceclip2.png](../../../resources/article-images/4495179083923-Hide-Site-From-Attendees_6.png)
+
+
+

@@ -1,0 +1,38 @@
+{
+  "GoToMeeting": {
+    "title": "GoToMeeting",
+    "display": "hidden"
+  },
+  "GoToWebinar": {
+    "title": "GoToWebinar",
+    "display": "hidden"
+  },
+  "Impexium": {
+    "title": "Impexium",
+    "display": "hidden"
+  },
+  "Microsoft_Dynamic_365_-_Coming_Soon": {
+    "title": "Microsoft Dynamic 365 - Coming Soon",
+    "display": "hidden"
+  },
+  "Stripe": {
+    "title": "Stripe",
+    "display": "hidden"
+  },
+  "Walls.io": {
+    "title": "Walls.io",
+    "display": "hidden"
+  },
+  "Webex_by_Cisco": {
+    "title": "Webex by Cisco",
+    "display": "hidden"
+  },
+  "Zapier": {
+    "title": "Zapier",
+    "display": "hidden"
+  },
+  "Zoom": {
+    "title": "Zoom",
+    "display": "hidden"
+  }
+}

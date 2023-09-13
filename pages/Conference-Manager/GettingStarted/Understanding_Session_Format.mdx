@@ -1,0 +1,27 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Understanding Session Format</ClickableTitle>
+
+
+
+
+The difference between a live and pre-recorded session is that live sessions happen in real time and have a unique, one-time result, while pre-recorded sessions are created with a video before the event is scheduled, and meant to be set on a recurring schedule or made available on demand to reuse more than one time.
+
+
+Within the session, the event administrator will be able to edit the session in real-time to change live session(s)s to pre-recorded stream(s). 
+
+
+

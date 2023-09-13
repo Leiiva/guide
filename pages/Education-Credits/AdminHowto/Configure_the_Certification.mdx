@@ -1,0 +1,49 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Configure the Certification</ClickableTitle>
+
+
+
+
+Under this section, you can configure how certifications will be granted.
+
+
+To configure the certification:
+
+
+1. **Specify the Submit Behavior**
+
+
+* **User has to confirm submissions of all claims programs:** This will submit all collected claims at once from all the sessions the claimer has attended
+* **Submit each claim immediately:** This will automatically submit each claim
+
+
+2. **Submit Action - Grant Credits to Impexium:** Upon claiming regardless of the submit behavior configuration, the credit claims will be written to the integrated AMS provider within the user's tables for certificates. *Do not modify the reference unless stated by the support*
+
+
+3. **Admin Notification Emails:** Add emails to be notified for the claiming actions in the Education Program
+
+
+4. **Provider Certificate Overrides (Default: No overrides configured):**This will override any credit providers' templates specifically for this event. By default (No overrides configured) this program will use the respective providers' templates. For instructions on how to configure the credit provider template, please refer to [this article](https://docs-for-customers.slayte.com/hc/en-us/articles/4579670710675).
+
+
+5. Click **Save** at the button of the page to commit the changes
+
+
+ 
+
+
+

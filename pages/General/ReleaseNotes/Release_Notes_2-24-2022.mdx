@@ -1,0 +1,82 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Release Notes 2/24/2022</ClickableTitle>
+
+
+
+
+## Calls Module
+
+
+## Attachment Export links
+
+
+We now include attachments in export reports, in the form of a link to the file download, this will eliminate the need for the administrator to access each submission individually to obtain these files. The download links however are only valid for 30 minutes after the report has been generated for download.
+
+
+Areas affected by this change:
+
+
+* Submissions exports now include attachment link downloads.
+* Review Criteria will now include attachment link downloads in the dedicated “Reviews” tab export.
+
+
+### New Review Field Type “Attachment Upload”
+
+
+The field type “Attachment upload” has been added to the review template. This will allow reviews if needed to upload an attachment as part of their review process. eg: annotating offline an abstract and uploading back.
+
+
+When "Copy to Feedback" on the Attachment-Field from the Review, it should include the link to the attachment so that Submitters can view any uploaded documents provided by the Reviewer (e.g. annotated papers)
+
+
+### New Restriction Type “Custom Field”
+
+
+This new restriction allows the administrator to restrict submission access, by user profile custom fields and a specified value.
+
+
+## Events Module
+
+
+## Sub-Session Search
+
+
+It is now possible to search sub-sessions in poster/panel type submissions in the event in the following locations:
+
+
+* Public Websites Sessions.
+* Session Widgets
+* Overview Event Site.
+
+
+## Bug Fixes and Quality of Life improvements
+
+
+* Changed the word “Criterium” to “Criteria” in all locations where it was present.
+* Removed weights from field types that were not subject to scoring in Review Templates. eg: Reviewer’s comment.
+* Corrected an issue that would prevent “Call Chairs” from filtering by user field types (authors, user search, etc), in the submissions grid.
+* We now allow Call Chairs to run submissions/reviews exports on demand.
+* Corrected an issue that would incorrectly display the author's name with the incorrect text in certain exports, [Manually Created] Undefined.
+* Corrected an issue that would not clear the volunteer reviewer’s list upon call reset.
+* It is now possible to add fields in an active review phase.
+
+
+	+ *Note: The changes will only affect new incoming reviews, however, already previously reviewed submissions can be edited to populate the new fields.*
+* Increased granularity has been added to the Submissions-Sessions Import dialog.
+* Varied UI changes associated with the creation of categories around the Slayte platform.
+
+

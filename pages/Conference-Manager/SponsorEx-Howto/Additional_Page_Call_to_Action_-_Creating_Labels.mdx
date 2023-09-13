@@ -1,0 +1,49 @@
+
+import { shareArticle } from '../../../components/share.js';
+import { FaLink } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+export const ClickableTitle = ({ children }) => (
+    <h1 style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => shareArticle()}>
+        {children} 
+        <span style={{ marginLeft: '10px' }}><FaLink size="0.6em" /></span>
+    </h1>
+);
+
+<ToastContainer />
+
+<ClickableTitle>Additional Page Call to Action - Creating Labels</ClickableTitle>
+
+
+
+
+1. Navigate to the Company Portal **Info** from the left pane
+
+
+![mceclip1.png](../../../resources/article-images/4495093592979-Additional-Page-Call-to-Action-Creating-Labels_1.png)
+
+
+2. Navigate to the **Additional Page Call to Action** section select **None** to expand the drop down menu
+
+
+![mceclip0.png](../../../resources/article-images/4495093592979-Additional-Page-Call-to-Action-Creating-Labels_2.png)
+
+
+3. When selecting option from None to **Redirect** to link fill in fields
+
+
+* Label on the call-to-action button
+* Link to redirect to
+
+
+![mceclip1.png](../../../resources/article-images/4495093592979-Additional-Page-Call-to-Action-Creating-Labels_3.png)
+
+
+Sample of Use:
+
+
+![mceclip2.png](../../../resources/article-images/4495093592979-Additional-Page-Call-to-Action-Creating-Labels_4.png)
+
+
+

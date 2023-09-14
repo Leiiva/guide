@@ -13,3 +13,48 @@
 [![FAQ](./../resources/sections/FAQ.svg)](./Submissions-Review/FAQ.mdx)
 
 [![TroubleshootingTips](./../resources/sections/TroubleshootingTips.svg)](./Submissions-Review/TroubleshootingTips.mdx)
+
+
+import '../src/index.css';
+
+export default ({ children }) => (
+  <div>
+      <div style={{ marginBottom: '50px' }}>
+        <h1>Submissions & Review</h1>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <a href="./Submissions-Review/Admin-Howto" class="item-content">
+            <img src="./resources/sections/AdminHt.svg" alt="AdminHT" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="./Submissions-Review/Submitter-Howto" class="item-content">
+            <img src="./resources/sections/SubmitterHt.svg" alt="SubmitterHt" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="./Submissions-Review/Reviewer-Howto" class="item-content">
+            <img src="./resources/sections/ReviewerHt.svg" alt="ReviewerHt" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="./Submissions-Review/GettingStarted" class="item-content">
+            <img src="./resources/sections/GettingStarted.svg" alt="GettingStarted" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="./Submissions-Review/FAQ" class="item-content">
+            <img src="./resources/sections/FAQ.svg" alt="FAQ" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="./Submissions-Review/TroubleshootingTips" class="item-content">
+            <img src="./resources/sections/TroubleshootingTips.svg" alt="TroubleshootingTips" />
+          </a>
+        </div>
+      </div>
+  </div>
+);
+
+

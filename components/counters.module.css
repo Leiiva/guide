@@ -1,6 +1,53 @@
-.counter {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 2px 6px;
-  margin: 12px 0 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Tailwind CSS base styles */
+@import 'tailwindcss/base';
+
+/* Import Tailwind CSS component styles */
+@import 'tailwindcss/components';
+
+/* Import Tailwind CSS utility styles */
+@import 'tailwindcss/utilities';
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px;
+    justify-content: space-around; /* Adjust the gap between items as needed */
 }
+
+.grid-item {
+    background-color: #fff; /* Set the background color for grid items */
+    padding: 20px; /* Add padding as needed */
+    text-align: center; /* Center the text */
+    color: #17494d; /* Set the default text color */
+    border: 1px solid #17494d;
+    transition: color 0.3s, background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.grid-item:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #17494d; /* Change background color on hover */
+}
+
+.item-content {
+    text-align: center;
+}
+
+.item-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.item-subtitle {
+    font-size: 1em;
+    margin: 0;
+}
+.grid-item a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent (which is #17494d) */
+    display: block; /* Make the entire grid item clickable */
+}
+
